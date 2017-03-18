@@ -22,3 +22,12 @@
 }
 
 }
+
+/*
+#header .image.avatar {
+    width: 15em;
+}*/
+
+body.is-touch #header {
+     background-size: cover; 
+}
