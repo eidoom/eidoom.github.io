@@ -7,8 +7,15 @@
 
 @media screen and (max-width: 980px) {
 
+#header {
+    background-image: url("../images/my_background_top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
 #footer {
-    background-image: url("../images/my_background.jpg");
+    background-image: url("../images/my_background_bottom.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom left;
