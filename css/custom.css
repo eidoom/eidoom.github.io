@@ -5,17 +5,8 @@
     background-position: top left;
 }
 
-#header .image.avatar {
-    width: 8em;
-}
-
 body.is-touch #header {
      background-size: cover; 
-}
-
-#footer .icons a {
-    color: rgba(255, 255, 255, 0.5);
-    border-bottom: none;
 }
 
 @media screen and (max-width: 980px) {
@@ -34,4 +25,12 @@ body.is-touch #header {
     background-position: bottom left;
 }
 
+}
+
+#header .image.avatar {
+    width: 7em;
+}
+
+#footer .icons a {
+    border-bottom: none;
 }
