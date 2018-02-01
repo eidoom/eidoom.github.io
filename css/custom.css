@@ -18,8 +18,6 @@ body.is-touch #header {
     border-bottom: none;
 }
 
-/*a {text-decoration: none; }*/
-
 @media screen and (max-width: 980px) {
 
 #header {
