@@ -5,6 +5,38 @@
     background-position: top left;
 }
 
+#header .image.avatar {
+    width: 10em;
+}
+
+.icons a {
+    border-bottom: none;
+}
+
+.ai {
+    vertical-align:-14%;
+}
+
+#footer .signature {
+    border-bottom: none;
+    opacity:0.8;
+}
+
+#footer .signature img {
+    width:192px;
+    background-color:transparent;
+}
+
+#footer .icons a {
+    color:white;
+    opacity:0.6;
+}
+
+#footer .copyright {
+    color:white;
+    opacity:0.5;
+}
+
 body.is-touch #header {
      background-size: cover; 
 }
@@ -25,25 +57,4 @@ body.is-touch #header {
     background-position: bottom left;
 }
 
-}
-
-#header .image.avatar {
-    width: 7em;
-}
-
-.icons a {
-    border-bottom: none;
-}
-
-.ai {
-    vertical-align:-14%;
-}
-
-.signature {
-    border-bottom: none;
-}
-
-.signature img {
-    width:192px;
-    background-color:transparent;
 }
