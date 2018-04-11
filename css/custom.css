@@ -17,6 +17,10 @@
     vertical-align:-14%;
 }
 
+.ai > .label {
+    display: none;
+}
+
 #footer .signature {
     border-bottom: none;
     opacity:0.8;
