@@ -1,16 +1,16 @@
 /*
- *  Academicons 1.8.0 by James Walsh - https://github.com/jpswalsh
+ *  Academicons 1.8.4 by James Walsh (https://github.com/jpswalsh) and Katja Bercic (https://github.com/katjabercic)
  *  Fonts generated using the IcoMoon app - http://icomoon.io/app
  *  Square icons designed to be used alongside Font Awesome square icons - https://fortawesome.github.io/Font-Awesome/
  *  Licenses - Font: SIL OFL 1.1, CSS: MIT License
  */
 @font-face {
     font-family: 'Academicons';
-    src:url('../fonts/academicons.eot?v=1.8.0');
-    src:url('../fonts/academicons.eot?v=1.8.0') format('embedded-opentype'),
-        url('../fonts/academicons.ttf?v=1.8.0') format('truetype'),
-        url('../fonts/academicons.woff?v=1.8.0') format('woff'),
-        url('../fonts/academicons.svg?v=1.8.0#academicons') format('svg');
+    src:url('../fonts/academicons.eot?v=1.8.4');
+    src:url('../fonts/academicons.eot?v=1.8.4') format('embedded-opentype'),
+        url('../fonts/academicons.ttf?v=1.8.4') format('truetype'),
+        url('../fonts/academicons.woff?v=1.8.4') format('woff'),
+        url('../fonts/academicons.svg?v=1.8.4#academicons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -61,19 +61,25 @@
 .ai-ceur:before {
   content: "\e812";
 }
-.ai-ceur-box:before {
+.ai-ceur-square:before {
   content: "\e813";
 }
-.ai-courser:before {
+.ai-coursera:before {
   content: "\e814";
 }
-.ai-courser-square:before {
+.ai-coursera-square:before {
   content: "\e815";
+}
+.ai-cv-square:before {
+  content: "\e902";
+}
+.ai-cv:before {
+  content: "\e903";
 }
 .ai-dataverse:before {
   content: "\e816";
 }
-.ai-dataverse-box:before {
+.ai-dataverse-square:before {
   content: "\e817";
 }
 .ai-dblp:before {
@@ -129,6 +135,12 @@
 }
 .ai-inspire-square:before {
   content: "\e835";
+}
+.ai-mathoverflow-square:before {
+  content: "\e900";
+}
+.ai-mathoverflow:before {
+  content: "\e901";
 }
 .ai-mendeley:before {
   content: "\e836";
