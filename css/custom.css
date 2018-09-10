@@ -20,6 +20,14 @@ ul.more-icons {
         vertical-align: middle;
     }
 
+.inspire-icon {
+    background: url('https://inspirehep.net/favicon.ico');
+    height: 64px;
+    width: 64px;
+    display: block;
+    /* Other styles here */
+}
+
 .icons a {
     border-bottom: none;
 }
