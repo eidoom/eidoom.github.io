@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Moodie</title>
-    <link>//eidoom.github.io/</link>
-    <description>Recent content on Ryan Moodie</description>
+    <title>Physics on Ryan Moodie</title>
+    <link>//eidoom.github.io/tags/physics/</link>
+    <description>Recent content in Physics on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//eidoom.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//eidoom.github.io/tags/physics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
