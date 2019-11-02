@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Categories &middot; Ryan Moodie</title>
+		<title>network &middot; Ryan Moodie</title>
 		<link rel="shortcut icon" href="//eidoom.github.io//favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,8 +12,8 @@
 		
 		<meta name="og:site_name" content="Ryan Moodie">
 		<meta name="og:description" content="Theoretical physicist">
-		<meta name="og:title" content="Categories">
-		<meta name="og:url" content="//eidoom.github.io/categories/">
+		<meta name="og:title" content="network">
+		<meta name="og:url" content="//eidoom.github.io/tags/network/">
 		
 		<meta name="og:image" content="//eidoom.github.io/images/my_avatar.jpg">
 		
@@ -28,8 +28,8 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="//eidoom.github.io//css/ie8.css"><![endif]-->
 
 		
-		<link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="Ryan Moodie" />
-		<link href="/categories/index.xml" rel="feed" type="application/rss+xml" title="Ryan Moodie" />
+		<link href="/tags/network/index.xml" rel="alternate" type="application/rss+xml" title="Ryan Moodie" />
+		<link href="/tags/network/index.xml" rel="feed" type="application/rss+xml" title="Ryan Moodie" />
 		
 		
 		<link rel="stylesheet" href="//eidoom.github.io/css/custom.css">
@@ -57,45 +57,59 @@
     
         <span>
     <h1>
-        <a href="//eidoom.github.io/categories/computing/">computing</a>
+        <a href="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">Bonding ethernet interfaces on Debian Stretch</a>
     </h1>
 
     <i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-11-02 16:36:51 &#43;0000 UTC">02-11-2019</time>&nbsp;&nbsp;
 
 
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 0 min read&nbsp;&nbsp;
+<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 2 min read&nbsp;&nbsp;
 
 
-
-
-
-
-</span>
-
-<p></p>
-<hr>
 
     
-        <span>
-    <h1>
-        <a href="//eidoom.github.io/categories/physics/">physics</a>
-    </h1>
-
-    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2019-05-17 00:00:00 &#43;0000 UTC">17-05-2019</time>&nbsp;&nbsp;
-
-
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 0 min read&nbsp;&nbsp;
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="//eidoom.github.io/categories/computing">computing</a>
+        
+        
+    
 
 
 
-
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/network">network</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/linux">linux</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/server">server</a>
+       
+       
+   
 
 
 </span>
 
-<p></p>
+<p>Setting up multiple ethernet interfaces to work in parallel Enable systemd-networkd
+sudo systemctl enable systemd-networkd
+Configure bond device
+sudo vim /etc/systemd/network/bond1.netdev
+[NetDev] Name=bond1 Description=LAG/Bond to a switch Kind=bond [Bond] Mode=802.3ad  Add interfaces to bond
+sudo vim /etc/systemd/network/bond1.network
+[Match] Name=enp* [Network] Bond=bond1  Assign IP to bond
+sudo vim /etc/systemd/network/dhcp.network
+[Match] Name=bond1 [Network] DHCP=yes  Disable previous configuration, e.g
+sudo mv /etc/network/interfaces /etc/network/interfaces.backup
+or
+sudo apt remove connman
+Apply with reboot</p>
 <hr>
 
     

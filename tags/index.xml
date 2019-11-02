@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2019 16:36:51 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux</title>
+      <link>//eidoom.github.io/tags/linux/</link>
+      <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>//eidoom.github.io/tags/network/</link>
+      <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>//eidoom.github.io/tags/server/</link>
+      <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/server/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>physics</title>

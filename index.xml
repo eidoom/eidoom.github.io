@@ -6,10 +6,31 @@
     <description>Recent content on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2019 16:36:51 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bonding ethernet interfaces on Debian Stretch</title>
+      <link>//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/</link>
+      <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/</guid>
+      <description>Setting up multiple ethernet interfaces to work in parallel Enable systemd-networkd
+sudo systemctl enable systemd-networkd
+Configure bond device
+sudo vim /etc/systemd/network/bond1.netdev
+[NetDev] Name=bond1 Description=LAG/Bond to a switch Kind=bond [Bond] Mode=802.3ad  Add interfaces to bond
+sudo vim /etc/systemd/network/bond1.network
+[Match] Name=enp* [Network] Bond=bond1  Assign IP to bond
+sudo vim /etc/systemd/network/dhcp.network
+[Match] Name=bond1 [Network] DHCP=yes  Disable previous configuration, e.g
+sudo mv /etc/network/interfaces /etc/network/interfaces.backup
+or
+sudo apt remove connman
+Apply with reboot</description>
+    </item>
     
     <item>
       <title>PhD first year report</title>
