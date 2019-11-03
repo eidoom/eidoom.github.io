@@ -57,14 +57,14 @@
     
         <span>
     <h1>
-        <a href="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">Bonding ethernet interfaces on Debian Stretch</a>
+        <a href="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">Bonding ethernet interfaces on Debian Buster</a>
     </h1>
 
     <i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-11-02 16:36:51 &#43;0000 UTC">02-11-2019</time>&nbsp;&nbsp;
 
 
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 2 min read&nbsp;&nbsp;
+<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 3 min read&nbsp;&nbsp;
 
 
 
@@ -97,19 +97,10 @@
 
 </span>
 
-<p>Setting up multiple ethernet interfaces to work in parallel Enable systemd-networkd
-sudo systemctl enable systemd-networkd
-Configure bond device
-sudo vim /etc/systemd/network/bond1.netdev
-[NetDev] Name=bond1 Description=LAG/Bond to a switch Kind=bond [Bond] Mode=802.3ad  Add interfaces to bond
-sudo vim /etc/systemd/network/bond1.network
-[Match] Name=enp* [Network] Bond=bond1  Assign IP to bond
-sudo vim /etc/systemd/network/dhcp.network
-[Match] Name=bond1 [Network] DHCP=yes  Disable previous configuration, e.g
-sudo mv /etc/network/interfaces /etc/network/interfaces.backup
-or
-sudo apt remove connman
-Apply with reboot</p>
+<p>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki.
+Migrating to systemd-networkd I used systemd-networkd to configure the bond interface. My system already uses systemd, so I just had to enable systemd-networkd.
+sudo systemctl enable systemd-networkd  I also set up systemd-resolved to provide name resolution.
+sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf  Over the years, I have used various networking solutions on this machine.</p>
 <hr>
 
     
