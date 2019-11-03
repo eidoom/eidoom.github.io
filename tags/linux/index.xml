@@ -24,7 +24,7 @@ cd ~/git/pi-hole/automated\ install sudo ./basic-install.sh  I chose CloudFlare 
     </item>
     
     <item>
-      <title>Address Transmission web client using hostname</title>
+      <title>Addressing the Transmission web client by hostname</title>
       <link>//eidoom.github.io/post/address-transmission-web-client-using-hostname/</link>
       <pubDate>Sun, 03 Nov 2019 09:41:46 +0000</pubDate>
       
