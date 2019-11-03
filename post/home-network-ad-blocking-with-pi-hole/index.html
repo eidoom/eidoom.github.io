@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>network &middot; Ryan Moodie</title>
+		<title>Home network ad-blocking with Pi-hole &middot; Ryan Moodie</title>
 		<link rel="shortcut icon" href="//eidoom.github.io//favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,8 +12,8 @@
 		
 		<meta name="og:site_name" content="Ryan Moodie">
 		<meta name="og:description" content="Theoretical physicist">
-		<meta name="og:title" content="network">
-		<meta name="og:url" content="//eidoom.github.io/tags/network/">
+		<meta name="og:title" content="Home network ad-blocking with Pi-hole">
+		<meta name="og:url" content="//eidoom.github.io/post/home-network-ad-blocking-with-pi-hole/">
 		
 		<meta name="og:image" content="//eidoom.github.io/images/my_avatar.jpg">
 		
@@ -27,9 +27,6 @@
 		<link rel="stylesheet" href="//eidoom.github.io/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="//eidoom.github.io//css/ie8.css"><![endif]-->
 
-		
-		<link href="/tags/network/index.xml" rel="alternate" type="application/rss+xml" title="Ryan Moodie" />
-		<link href="/tags/network/index.xml" rel="feed" type="application/rss+xml" title="Ryan Moodie" />
 		
 		
 		<link rel="stylesheet" href="//eidoom.github.io/css/custom.css">
@@ -51,16 +48,10 @@
 		<!-- Main -->
 		<div id="main">
 			
-    
+	<span>
+		<h1>Home network ad-blocking with Pi-hole</h1>
 
-    
-    
-        <span>
-    <h1>
-        <a href="//eidoom.github.io/post/home-network-ad-blocking-with-pi-hole/">Home network ad-blocking with Pi-hole</a>
-    </h1>
-
-    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-11-03 12:41:53 &#43;0000 UTC">03-11-2019</time>&nbsp;&nbsp;
 
 
@@ -95,73 +86,70 @@
    
 
 
-</span>
+	</span>
 
-<p>Pi-hole is an awesome piece of software which blocks ads across a network at the name resolution level. Check out the source here. I set it up on my home linux server.
-I hoped into my git repos folder and cloned the Pi-hole repo
-cd ~/git git clone git@github.com:pi-hole/pi-hole.git  then used the installation scripts to install it on my system
-cd ~/git/pi-hole/automated\ install sudo ./basic-install.sh  I chose CloudFlare as my Upstream DNS Provider because they have a good privacy policy and came out on top for performance in my ping tests</p>
-<hr>
+	<p>
+	    <p><a href="https://pi-hole.net/">Pi-hole</a> is an awesome piece of software which blocks ads across a network at the name resolution level.
+Check out the source <a href="https://github.com/pi-hole/pi-hole">here</a>.
+I set it up on my home linux server.</p>
 
-    
-        <span>
-    <h1>
-        <a href="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">Bonding ethernet interfaces on Debian Buster</a>
-    </h1>
+<p>I hoped into my git repos folder and cloned the Pi-hole repo</p>
 
-    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2019-11-02 16:36:51 &#43;0000 UTC">02-11-2019</time>&nbsp;&nbsp;
+<pre><code>cd ~/git
+git clone git@github.com:pi-hole/pi-hole.git
+</code></pre>
 
+<p>then used the installation scripts to install it on my system</p>
 
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 3 min read&nbsp;&nbsp;
+<pre><code>cd ~/git/pi-hole/automated\ install
+sudo ./basic-install.sh
+</code></pre>
 
+<p>I chose <a href="https://cloudflare-dns.com/dns/">CloudFlare</a> as my Upstream DNS Provider because they have a good <a href="https://wiki.archlinux.org/index.php/Alternative_DNS_services#Cloudflare">privacy policy</a> and came out on top for performance in my ping tests</p>
 
+<pre><code>ping -c 3 1.1.1.1
+</code></pre>
 
-    
-    
-        <i class="fa fa-folder"></i>&nbsp;&nbsp;
-        
-        <a class="article-category-link" href="//eidoom.github.io/categories/computing">computing</a>
-        
-        
-    
+<pre><code>PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=58 time=12.3 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=58 time=12.1 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=58 time=12.2 ms
 
+--- 1.1.1.1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 5ms
+rtt min/avg/max/mdev = 12.104/12.202/12.339/0.161 ms
+</code></pre>
 
+<p>versus runner-up <a href="https://www.opendns.com/">OpenDNS</a></p>
 
-   
-   
-       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/network">network</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/linux">linux</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/server">server</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/systemd">systemd</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/debian">debian</a>
-       
-       
-   
+<pre><code>ping -c 3 208.67.222.220
+</code></pre>
 
+<pre><code>PING 208.67.222.220 (208.67.222.220) 56(84) bytes of data.
+64 bytes from 208.67.222.220: icmp_seq=1 ttl=58 time=17.6 ms
+64 bytes from 208.67.222.220: icmp_seq=2 ttl=58 time=18.2 ms
+64 bytes from 208.67.222.220: icmp_seq=3 ttl=58 time=18.0 ms
 
-</span>
+--- 208.67.222.220 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 5ms
+rtt min/avg/max/mdev = 17.602/17.933/18.177/0.287 ms
+</code></pre>
 
-<p>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki.
-Migrating to systemd-networkd I used systemd-networkd to configure the bond interface. My system already uses systemd, so I just had to enable systemd-networkd.
-sudo systemctl enable systemd-networkd  I also set up systemd-resolved to provide name resolution.
-sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf  Over the years, I have used various networking solutions on this machine.</p>
-<hr>
+<p>I gave Pi-hole the static IP address of my server and set it to listen on my server&rsquo;s <a href="../bonding-ethernet-interfaces-on-debian-stretch/">bonded ethernet interface</a>.
+I used the default blocklists.</p>
 
-    
+<p>That&rsquo;s it for Pi-hole itself - super easy!
+The only thing left to do was to tell my router to use Pi-hole as its DNS.
+Enduring the TalkTalk router web interface, I set the primary DNS server to the static IP address of my server (running Pi-hole) and left the secondary blank since I wanted Pi-hole to be the only DNS server.
+This is discussed <a href="https://discourse.pi-hole.net/t/how-do-i-configure-my-devices-to-use-pi-hole-as-their-dns-server/245">here</a>.</p>
 
-    
+<p>Job done!
+To get devices on my local network using the new DNS server, I just restarted them.
+Now I can enjoy data about blocked queries on the Pi-hole web interface at <code>http://HOSTNAME/admin</code> where HOSTNAME is the hostname of my server.</p>
 
+	</p>
+
+	
 
 		</div>
 

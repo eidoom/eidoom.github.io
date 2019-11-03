@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//eidoom.github.io/categories/</loc>
+    <lastmod>2019-11-03T12:41:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//eidoom.github.io/categories/computing/</loc>
+    <lastmod>2019-11-03T12:41:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//eidoom.github.io/post/home-network-ad-blocking-with-pi-hole/</loc>
+    <lastmod>2019-11-03T12:41:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//eidoom.github.io/tags/linux/</loc>
+    <lastmod>2019-11-03T12:41:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//eidoom.github.io/tags/network/</loc>
+    <lastmod>2019-11-03T12:41:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//eidoom.github.io/post/</loc>
+    <lastmod>2019-11-03T12:41:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//eidoom.github.io/</loc>
+    <lastmod>2019-11-03T12:41:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//eidoom.github.io/tags/server/</loc>
+    <lastmod>2019-11-03T12:41:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//eidoom.github.io/tags/</loc>
+    <lastmod>2019-11-03T12:41:53+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//eidoom.github.io/post/address-transmission-web-client-using-hostname/</loc>
     <lastmod>2019-11-03T09:41:46+00:00</lastmod>
   </url>
@@ -13,52 +58,12 @@
   </url>
   
   <url>
-    <loc>//eidoom.github.io/categories/</loc>
-    <lastmod>2019-11-03T09:41:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//eidoom.github.io/categories/computing/</loc>
-    <lastmod>2019-11-03T09:41:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//eidoom.github.io/tags/linux/</loc>
-    <lastmod>2019-11-03T09:41:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//eidoom.github.io/post/</loc>
-    <lastmod>2019-11-03T09:41:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//eidoom.github.io/</loc>
-    <lastmod>2019-11-03T09:41:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//eidoom.github.io/tags/server/</loc>
-    <lastmod>2019-11-03T09:41:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//eidoom.github.io/tags/</loc>
-    <lastmod>2019-11-03T09:41:46+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/</loc>
     <lastmod>2019-11-02T16:36:51+00:00</lastmod>
   </url>
   
   <url>
     <loc>//eidoom.github.io/tags/debian/</loc>
-    <lastmod>2019-11-02T16:36:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//eidoom.github.io/tags/network/</loc>
     <lastmod>2019-11-02T16:36:51+00:00</lastmod>
   </url>
   

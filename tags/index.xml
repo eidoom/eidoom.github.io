@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 03 Nov 2019 09:41:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2019 12:41:53 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux</title>
+      <link>//eidoom.github.io/tags/linux/</link>
+      <pubDate>Sun, 03 Nov 2019 12:41:53 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>//eidoom.github.io/tags/network/</link>
+      <pubDate>Sun, 03 Nov 2019 12:41:53 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>//eidoom.github.io/tags/server/</link>
+      <pubDate>Sun, 03 Nov 2019 12:41:53 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/server/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bittorrent</title>
@@ -21,38 +48,11 @@
     </item>
     
     <item>
-      <title>linux</title>
-      <link>//eidoom.github.io/tags/linux/</link>
-      <pubDate>Sun, 03 Nov 2019 09:41:46 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>server</title>
-      <link>//eidoom.github.io/tags/server/</link>
-      <pubDate>Sun, 03 Nov 2019 09:41:46 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/tags/server/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>debian</title>
       <link>//eidoom.github.io/tags/debian/</link>
       <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
       
       <guid>//eidoom.github.io/tags/debian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>network</title>
-      <link>//eidoom.github.io/tags/network/</link>
-      <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/tags/network/</guid>
       <description></description>
     </item>
     
