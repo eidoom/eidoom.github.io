@@ -6,10 +6,21 @@
     <description>Recent content in linux on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 03 Nov 2019 12:41:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2019 13:50:54 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nerdifying music library management with beets</title>
+      <link>//eidoom.github.io/post/nerdifying-music-library-management-with-beets/</link>
+      <pubDate>Sun, 03 Nov 2019 13:50:54 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/post/nerdifying-music-library-management-with-beets/</guid>
+      <description>beets is the endgame music library management system for me. I set it up on my linux server (running Debian Buster).
+Installation I like living on the bleeding-edge (despite my stability policy on my server) and intended to tinker with the code, so I installed beets from the GitHub repo as an editable pip package as described here.
+cd ~/git git clone git@github.com:beetbox/beets.git cd ~/git/beets python3 -m pip install --user -e .</description>
+    </item>
     
     <item>
       <title>Home network ad-blocking with Pi-hole</title>

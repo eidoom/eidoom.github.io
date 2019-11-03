@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 03 Nov 2019 12:41:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2019 13:50:54 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>linux</title>
       <link>//eidoom.github.io/tags/linux/</link>
-      <pubDate>Sun, 03 Nov 2019 12:41:53 +0000</pubDate>
+      <pubDate>Sun, 03 Nov 2019 13:50:54 +0000</pubDate>
       
       <guid>//eidoom.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>media</title>
+      <link>//eidoom.github.io/tags/media/</link>
+      <pubDate>Sun, 03 Nov 2019 13:50:54 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>//eidoom.github.io/tags/server/</link>
+      <pubDate>Sun, 03 Nov 2019 13:50:54 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/server/</guid>
       <description></description>
     </item>
     
@@ -26,15 +44,6 @@
       <pubDate>Sun, 03 Nov 2019 12:41:53 +0000</pubDate>
       
       <guid>//eidoom.github.io/tags/network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>server</title>
-      <link>//eidoom.github.io/tags/server/</link>
-      <pubDate>Sun, 03 Nov 2019 12:41:53 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/tags/server/</guid>
       <description></description>
     </item>
     
@@ -66,11 +75,11 @@
     </item>
     
     <item>
-      <title>physics</title>
-      <link>//eidoom.github.io/tags/physics/</link>
+      <title>phd</title>
+      <link>//eidoom.github.io/tags/phd/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//eidoom.github.io/tags/physics/</guid>
+      <guid>//eidoom.github.io/tags/phd/</guid>
       <description></description>
     </item>
     
