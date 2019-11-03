@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>computing &middot; Ryan Moodie</title>
+		<title>bittorrent &middot; Ryan Moodie</title>
 		<link rel="shortcut icon" href="//eidoom.github.io//favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,8 +12,8 @@
 		
 		<meta name="og:site_name" content="Ryan Moodie">
 		<meta name="og:description" content="Theoretical physicist">
-		<meta name="og:title" content="computing">
-		<meta name="og:url" content="//eidoom.github.io/categories/computing/">
+		<meta name="og:title" content="bittorrent">
+		<meta name="og:url" content="//eidoom.github.io/tags/bittorrent/">
 		
 		<meta name="og:image" content="//eidoom.github.io/images/my_avatar.jpg">
 		
@@ -28,8 +28,8 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="//eidoom.github.io//css/ie8.css"><![endif]-->
 
 		
-		<link href="/categories/computing/index.xml" rel="alternate" type="application/rss+xml" title="Ryan Moodie" />
-		<link href="/categories/computing/index.xml" rel="feed" type="application/rss+xml" title="Ryan Moodie" />
+		<link href="/tags/bittorrent/index.xml" rel="alternate" type="application/rss+xml" title="Ryan Moodie" />
+		<link href="/tags/bittorrent/index.xml" rel="feed" type="application/rss+xml" title="Ryan Moodie" />
 		
 		
 		<link rel="stylesheet" href="//eidoom.github.io/css/custom.css">
@@ -100,61 +100,6 @@
 <p>I have Transmission running on my linux server for BitTorrent transfers. I have been accessing the web interface using the IP address of the server in the URL like a dirty animal. It&rsquo;s time to use the hostname of my server for this.
 Before making any changes to the settings, Transmission has to be stopped otherwise it will overwrite those changes.
 sudo systemctl stop transmission-daemon  Open the settings for editing</p>
-<hr>
-
-    
-        <span>
-    <h1>
-        <a href="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">Bonding ethernet interfaces on Debian Buster</a>
-    </h1>
-
-    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2019-11-02 16:36:51 &#43;0000 UTC">02-11-2019</time>&nbsp;&nbsp;
-
-
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 3 min read&nbsp;&nbsp;
-
-
-
-    
-    
-        <i class="fa fa-folder"></i>&nbsp;&nbsp;
-        
-        <a class="article-category-link" href="//eidoom.github.io/categories/computing">computing</a>
-        
-        
-    
-
-
-
-   
-   
-       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/network">network</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/linux">linux</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/server">server</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/systemd">systemd</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/debian">debian</a>
-       
-       
-   
-
-
-</span>
-
-<p>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki.
-Migrating to systemd-networkd I used systemd-networkd to configure the bond interface. My system already uses systemd, so I just had to enable systemd-networkd.
-sudo systemctl enable systemd-networkd  I also set up systemd-resolved to provide name resolution.
-sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf  Over the years, I have used various networking solutions on this machine.</p>
 <hr>
 
     
