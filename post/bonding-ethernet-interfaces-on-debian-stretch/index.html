@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Bonding ethernet interfaces on Debian Buster &middot; Ryan Moodie</title>
+		<title>Bonding ethernet interfaces with systemd-networkd &middot; Ryan Moodie</title>
 		<link rel="shortcut icon" href="//eidoom.github.io//favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,7 +12,7 @@
 		
 		<meta name="og:site_name" content="Ryan Moodie">
 		<meta name="og:description" content="Theoretical physicist">
-		<meta name="og:title" content="Bonding ethernet interfaces on Debian Buster">
+		<meta name="og:title" content="Bonding ethernet interfaces with systemd-networkd">
 		<meta name="og:url" content="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">
 		
 		<meta name="og:image" content="//eidoom.github.io/images/my_avatar.jpg">
@@ -49,7 +49,7 @@
 		<div id="main">
 			
 	<span>
-		<h1>Bonding ethernet interfaces on Debian Buster</h1>
+		<h1>Bonding ethernet interfaces with systemd-networkd</h1>
 
 		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-11-02 16:36:51 &#43;0000 UTC">02-11-2019</time>&nbsp;&nbsp;
@@ -97,7 +97,9 @@
 	<p>
 	    
 
-<p>I set up my linux server to use its two ethernet interfaces in <a href="https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol">parallel</a>. My primary <a href="https://wiki.debian.org/Bonding#Using_systemd-networkd">reference was from the Debian wiki</a>.</p>
+<p>I set up my linux server to use its two ethernet interfaces in <a href="https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol">parallel</a>.
+My primary <a href="https://wiki.debian.org/Bonding#Using_systemd-networkd">reference was from the Debian wiki</a>.
+My server is running Debian Buster.</p>
 
 <h4 id="migrating-to-systemd-networkd">Migrating to systemd-networkd</h4>
 
