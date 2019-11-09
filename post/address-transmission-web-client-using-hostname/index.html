@@ -89,11 +89,17 @@
 	</span>
 
 	<p>
-	    <p>I have <a href="https://wiki.archlinux.org/index.php/Transmission">Transmission</a> running on my linux server for BitTorrent transfers.
+	    
+
+<h2 id="introduction">Introduction</h2>
+
+<p>I have <a href="https://wiki.archlinux.org/index.php/Transmission">Transmission</a> running on my linux server for BitTorrent transfers.
 I have been accessing the web interface using the IP address of the server in the URL like a dirty animal.
 It&rsquo;s time to use the hostname of my server for this.</p>
 
-<p>Before making any changes to the settings, Transmission has to be stopped otherwise it will overwrite those changes.</p>
+<h2 id="configuration">Configuration</h2>
+
+<p>Before making any changes to the settings, Transmission has to be stopped otherwise it will overwrite those changes</p>
 
 <pre><code>sudo systemctl stop transmission-daemon
 </code></pre>
@@ -103,7 +109,16 @@ It&rsquo;s time to use the hostname of my server for this.</p>
 <pre><code>vim ~/.config/transmission-daemon/settings.json
 </code></pre>
 
-<p>Make sure rpc-host-whitelist-enabled is true and add the hostname of the server to rpc-host-whitelist.</p>
+<p>Make sure rpc-host-whitelist-enabled is true and add the hostname(s) of the server to rpc-host-whitelist</p>
+
+<pre><code>cat ~/.config/transmission-daemon/settings.json
+</code></pre>
+
+<pre><code>...
+&quot;rpc-enabled&quot;: true,
+&quot;rpc-host-whitelist&quot;: &quot;HOSTNAME1,HOSTNAME2&quot;,
+...
+</code></pre>
 
 <p>Start up Transmission again</p>
 

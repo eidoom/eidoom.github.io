@@ -17,8 +17,8 @@
       <pubDate>Sun, 03 Nov 2019 09:41:46 +0000</pubDate>
       
       <guid>//eidoom.github.io/post/address-transmission-web-client-using-hostname/</guid>
-      <description>I have Transmission running on my linux server for BitTorrent transfers. I have been accessing the web interface using the IP address of the server in the URL like a dirty animal. It&amp;rsquo;s time to use the hostname of my server for this.
-Before making any changes to the settings, Transmission has to be stopped otherwise it will overwrite those changes.
+      <description>Introduction I have Transmission running on my linux server for BitTorrent transfers. I have been accessing the web interface using the IP address of the server in the URL like a dirty animal. It&amp;rsquo;s time to use the hostname of my server for this.
+Configuration Before making any changes to the settings, Transmission has to be stopped otherwise it will overwrite those changes
 sudo systemctl stop transmission-daemon  Open the settings for editing</description>
     </item>
     

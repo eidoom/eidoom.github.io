@@ -12,15 +12,15 @@
     
     
     <item>
-      <title>Bonding ethernet interfaces on Debian Buster</title>
+      <title>Bonding ethernet interfaces with systemd-networkd</title>
       <link>//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/</link>
       <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
       
       <guid>//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/</guid>
-      <description>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki.
+      <description>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki. My server runs Debian Buster.
 Migrating to systemd-networkd I used systemd-networkd to configure the bond interface. My system already uses systemd, so I just had to enable systemd-networkd.
 sudo systemctl enable systemd-networkd  I also set up systemd-resolved to provide name resolution.
-sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf  Over the years, I have used various networking solutions on this machine.</description>
+sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.</description>
     </item>
     
   </channel>

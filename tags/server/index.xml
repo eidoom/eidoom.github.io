@@ -28,8 +28,8 @@ cd ~/git git clone git@github.com:beetbox/beets.git cd ~/git/beets python3 -m pi
       <pubDate>Sun, 03 Nov 2019 12:41:53 +0000</pubDate>
       
       <guid>//eidoom.github.io/post/home-network-ad-blocking-with-pi-hole/</guid>
-      <description>Pi-hole is an awesome piece of software which blocks ads across a network at the name resolution level. Check out the source here. I set it up on my home linux server.
-I hoped into my git repos folder and cloned the Pi-hole repo
+      <description>Pi-hole Pi-hole is an awesome piece of software which blocks ads across a network at the name resolution level. Check out the source here. I set it up on my home linux server.
+Installation I hopped into my git repos folder and cloned the Pi-hole repo
 cd ~/git git clone git@github.com:pi-hole/pi-hole.git  then used the installation scripts to install it on my system
 cd ~/git/pi-hole/automated\ install sudo ./basic-install.sh  I chose CloudFlare as my Upstream DNS Provider because they have a good privacy policy and came out on top for performance in my ping tests</description>
     </item>
@@ -40,21 +40,21 @@ cd ~/git/pi-hole/automated\ install sudo ./basic-install.sh  I chose CloudFlare 
       <pubDate>Sun, 03 Nov 2019 09:41:46 +0000</pubDate>
       
       <guid>//eidoom.github.io/post/address-transmission-web-client-using-hostname/</guid>
-      <description>I have Transmission running on my linux server for BitTorrent transfers. I have been accessing the web interface using the IP address of the server in the URL like a dirty animal. It&amp;rsquo;s time to use the hostname of my server for this.
-Before making any changes to the settings, Transmission has to be stopped otherwise it will overwrite those changes.
+      <description>Introduction I have Transmission running on my linux server for BitTorrent transfers. I have been accessing the web interface using the IP address of the server in the URL like a dirty animal. It&amp;rsquo;s time to use the hostname of my server for this.
+Configuration Before making any changes to the settings, Transmission has to be stopped otherwise it will overwrite those changes
 sudo systemctl stop transmission-daemon  Open the settings for editing</description>
     </item>
     
     <item>
-      <title>Bonding ethernet interfaces on Debian Buster</title>
+      <title>Bonding ethernet interfaces with systemd-networkd</title>
       <link>//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/</link>
       <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
       
       <guid>//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/</guid>
-      <description>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki.
+      <description>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki. My server runs Debian Buster.
 Migrating to systemd-networkd I used systemd-networkd to configure the bond interface. My system already uses systemd, so I just had to enable systemd-networkd.
 sudo systemctl enable systemd-networkd  I also set up systemd-resolved to provide name resolution.
-sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf  Over the years, I have used various networking solutions on this machine.</description>
+sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.</description>
     </item>
     
   </channel>

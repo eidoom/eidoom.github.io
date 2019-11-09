@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ryan Moodie</title>
-    <link>//eidoom.github.io/post/</link>
-    <description>Recent content in Posts on Ryan Moodie</description>
+    <title>installation on Ryan Moodie</title>
+    <link>//eidoom.github.io/tags/installation/</link>
+    <description>Recent content in installation on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sat, 09 Nov 2019 14:12:40 +0000</lastBuildDate>
     
-	<atom:link href="//eidoom.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//eidoom.github.io/tags/installation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -41,47 +41,6 @@ cd ~/git git clone git@github.com:beetbox/beets.git cd ~/git/beets python3 -m pi
 Installation I hopped into my git repos folder and cloned the Pi-hole repo
 cd ~/git git clone git@github.com:pi-hole/pi-hole.git  then used the installation scripts to install it on my system
 cd ~/git/pi-hole/automated\ install sudo ./basic-install.sh  I chose CloudFlare as my Upstream DNS Provider because they have a good privacy policy and came out on top for performance in my ping tests</description>
-    </item>
-    
-    <item>
-      <title>Addressing the Transmission web client by hostname</title>
-      <link>//eidoom.github.io/post/address-transmission-web-client-using-hostname/</link>
-      <pubDate>Sun, 03 Nov 2019 09:41:46 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/post/address-transmission-web-client-using-hostname/</guid>
-      <description>Introduction I have Transmission running on my linux server for BitTorrent transfers. I have been accessing the web interface using the IP address of the server in the URL like a dirty animal. It&amp;rsquo;s time to use the hostname of my server for this.
-Configuration Before making any changes to the settings, Transmission has to be stopped otherwise it will overwrite those changes
-sudo systemctl stop transmission-daemon  Open the settings for editing</description>
-    </item>
-    
-    <item>
-      <title>Bonding ethernet interfaces with systemd-networkd</title>
-      <link>//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/</link>
-      <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/</guid>
-      <description>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki. My server runs Debian Buster.
-Migrating to systemd-networkd I used systemd-networkd to configure the bond interface. My system already uses systemd, so I just had to enable systemd-networkd.
-sudo systemctl enable systemd-networkd  I also set up systemd-resolved to provide name resolution.
-sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.</description>
-    </item>
-    
-    <item>
-      <title>PhD first year report</title>
-      <link>//eidoom.github.io/post/phd-year-one-report/</link>
-      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/post/phd-year-one-report/</guid>
-      <description>The time has come for my first year progress assessment. Here&amp;rsquo;s my report.</description>
-    </item>
-    
-    <item>
-      <title>PhD applications</title>
-      <link>//eidoom.github.io/post/phd-applications/</link>
-      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/post/phd-applications/</guid>
-      <description>I&amp;rsquo;m applying for PhDs just now. Have a look at my CV or statement of purpose if you like.</description>
     </item>
     
   </channel>
