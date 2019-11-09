@@ -1,83 +1,84 @@
 #header {
-    background-image: url("../images/my_background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top left;
+	background-image: url("../images/my_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top left;
 }
 
 #header .image.avatar {
-    width: 10em;
+	width: 10em;
 }
-
 
 ul.more-icons {
-    padding-left: 0;
+	padding-left: 0;
 }
 
-    ul.more-icons li {
-        display: inline-block;
-        padding: 0 1em 0 0;
-        vertical-align: middle;
-    }
+ul.more-icons li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+	vertical-align: middle;
+}
 
 .inspire-icon {
-    background: url('https://inspirehep.net/favicon.ico');
-    height: 64px;
-    width: 64px;
-    display: block;
-    /* Other styles here */
+	background: url('https://inspirehep.net/favicon.ico');
+	height: 64px;
+	width: 64px;
+	display: block;
+	/* Other styles here */
 }
 
 .icons a {
-    border-bottom: none;
+	border-bottom: none;
 }
 
 .ai {
-    vertical-align:-14%;
+	vertical-align:-14%;
 }
 
 .ai > .label {
-    display: none;
+	display: none;
 }
 
 #footer .signature {
-    border-bottom: none;
-    opacity:0.8;
+	border-bottom: none;
+	opacity:0.8;
 }
 
 #footer .signature img {
-    width:192px;
-    background-color:transparent;
+	width:192px;
+	background-color:transparent;
 }
 
 #footer .icons a {
-    color:white;
-    opacity:0.6;
+	color:white;
+	opacity:0.6;
 }
 
 #footer .copyright {
-    color:white;
-    opacity:0.5;
+	color:white;
+	opacity:0.5;
 }
 
 body.is-touch #header {
-     background-size: cover; 
+	background-size: cover; 
 }
 
 @media screen and (max-width: 980px) {
 
-#header {
-    background-image: url("../images/my_background_top.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top left;
+	#header {
+		background-image: url("../images/my_background_top.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top left;
+	}
+
+	#footer {
+		background-image: url("../images/my_background_bottom.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: bottom left;
+	}
+
 }
 
-#footer {
-    background-image: url("../images/my_background_bottom.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom left;
-}
 
-}
