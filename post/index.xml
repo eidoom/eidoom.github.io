@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 09 Nov 2019 14:12:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 17:53:14 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>File sharing with NFS</title>
+      <link>//eidoom.github.io/post/nfs/</link>
+      <pubDate>Sat, 09 Nov 2019 17:53:14 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/post/nfs/</guid>
+      <description>Introduction I set up an NFSv4 server on my home server to share files with my desktop. The server runs Debian Buster and the desktop runs Fedora 31. My main resource was from the Debian wiki.
+Server Install the NFS server
+sudo apt install nfs-kernel-server  To configure for version 4 only, we need to edit a couple of files:
+sudo vim /etc/default/nfs-common  ... NEED_STATD=&amp;quot;no&amp;quot; ... NEED_IDMAPD=&amp;quot;yes&amp;quot; ...  sudo vim /etc/default/nfs-kernel-server  .</description>
+    </item>
     
     <item>
       <title>Installing Nvidia drivers on Fedora</title>
