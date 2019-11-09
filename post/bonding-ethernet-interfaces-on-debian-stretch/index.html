@@ -97,11 +97,13 @@
 	<p>
 	    
 
+<h2 id="introduction">Introduction</h2>
+
 <p>I set up my linux server to use its two ethernet interfaces in <a href="https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol">parallel</a>.
 My primary <a href="https://wiki.debian.org/Bonding#Using_systemd-networkd">reference was from the Debian wiki</a>.
 My server runs Debian Buster.</p>
 
-<h4 id="migrating-to-systemd-networkd">Migrating to systemd-networkd</h4>
+<h2 id="migrating-to-systemd-networkd">Migrating to systemd-networkd</h2>
 
 <p>I used <a href="https://wiki.archlinux.org/index.php/Systemd-networkd">systemd-networkd</a> to configure the bond interface.
 My system already uses <a href="https://wiki.archlinux.org/index.php/Systemd">systemd</a>, so I just had to enable systemd-networkd.</p>
@@ -125,7 +127,7 @@ sudo apt remove wpasupplicant
 sudo systemctl disable dhcpcd
 </code></pre>
 
-<h4 id="configure-bond-device">Configure bond device</h4>
+<h2 id="configure-bond-device">Configure bond device</h2>
 
 <p>The configuration files for systemd-networkd use <a href="https://wiki.archlinux.org/index.php/Systemd-networkd#Configuration_files">this syntax</a>.
 First, I set up the new bond interface.</p>
@@ -141,7 +143,11 @@ Kind=bond
 Mode=802.3ad
 </code></pre>
 
-<h4 id="add-interfaces-to-bond">Add interfaces to bond</h4>
+<p>I chose the <code>802.3ad</code> mode to double the throughput of my server&rsquo;s network interface.
+Note that this increase in bandwidth does not apply to a single connection: each connection still uses a single ethernet interface.
+However, multiple connections are balanced over the two physical interfaces.</p>
+
+<h2 id="add-interfaces-to-bond">Add interfaces to bond</h2>
 
 <p>Then I slaved the ethernet interfaces to the bond.</p>
 
@@ -155,7 +161,7 @@ Name=enp*
 Bond=bond1
 </code></pre>
 
-<h4 id="assign-ip-to-bond">Assign IP to bond</h4>
+<h2 id="assign-ip-to-bond">Assign IP to bond</h2>
 
 <p>Finally, I assigned a static IP address to the bond interface.</p>
 
@@ -172,7 +178,7 @@ Gateway=192.168.1.1
 DNS=192.168.1.1
 </code></pre>
 
-<h4 id="apply-and-check">Apply and check</h4>
+<h2 id="apply-and-check">Apply and check</h2>
 
 <p>I applied the new configuration with a reboot</p>
 

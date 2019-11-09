@@ -55,12 +55,13 @@
 
     
     
-        <span>
-    <h1>
-        <a href="//eidoom.github.io/post/nerdifying-music-library-management-with-beets/">Nerdifying music library management with beets</a>
-    </h1>
+        <div>
+	<div>
+		<h1>
+			<a href="//eidoom.github.io/post/nerdifying-music-library-management-with-beets/">Nerdifying music library management with beets</a>
+		</h1>
 
-    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-11-03 13:50:54 &#43;0000 UTC">03-11-2019</time>&nbsp;&nbsp;
 
 
@@ -98,20 +99,25 @@
    
 
 
-</span>
-
-<p>beets is the endgame music library management system for me. I set it up on my linux server (running Debian Buster).
-Installation I like living on the bleeding-edge (despite my stability policy on my server) and intended to tinker with the code, so I installed beets from the GitHub repo as an editable pip package as described here.
-cd ~/git git clone git@github.com:beetbox/beets.git cd ~/git/beets python3 -m pip install --user -e .</p>
-<hr>
+	</div>
+	<div>
+		<p>
+		
+			My favourite music library management software
+		
+		</p>
+	</div>
+	<hr>
+</div>
 
     
-        <span>
-    <h1>
-        <a href="//eidoom.github.io/post/home-network-ad-blocking-with-pi-hole/">Home network ad-blocking with Pi-hole</a>
-    </h1>
+        <div>
+	<div>
+		<h1>
+			<a href="//eidoom.github.io/post/home-network-ad-blocking-with-pi-hole/">Home network ad-blocking with Pi-hole</a>
+		</h1>
 
-    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-11-03 12:41:53 &#43;0000 UTC">03-11-2019</time>&nbsp;&nbsp;
 
 
@@ -149,21 +155,25 @@ cd ~/git git clone git@github.com:beetbox/beets.git cd ~/git/beets python3 -m pi
    
 
 
-</span>
-
-<p>Pi-hole Pi-hole is an awesome piece of software which blocks ads across a network at the name resolution level. Check out the source here. I set it up on my home linux server.
-Installation I hopped into my git repos folder and cloned the Pi-hole repo
-cd ~/git git clone git@github.com:pi-hole/pi-hole.git  then used the installation scripts to install it on my system
-cd ~/git/pi-hole/automated\ install sudo ./basic-install.sh  I chose CloudFlare as my Upstream DNS Provider because they have a good privacy policy and came out on top for performance in my ping tests</p>
-<hr>
+	</div>
+	<div>
+		<p>
+		
+			A caching DNS server for the home with ad-blocking &mdash; and not just for Raspberry Pis
+		
+		</p>
+	</div>
+	<hr>
+</div>
 
     
-        <span>
-    <h1>
-        <a href="//eidoom.github.io/post/address-transmission-web-client-using-hostname/">Addressing the Transmission web client by hostname</a>
-    </h1>
+        <div>
+	<div>
+		<h1>
+			<a href="//eidoom.github.io/post/address-transmission-web-client-using-hostname/">Addressing the Transmission web client by hostname</a>
+		</h1>
 
-    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-11-03 09:41:46 &#43;0000 UTC">03-11-2019</time>&nbsp;&nbsp;
 
 
@@ -198,20 +208,25 @@ cd ~/git/pi-hole/automated\ install sudo ./basic-install.sh  I chose CloudFlare 
    
 
 
-</span>
-
-<p>Introduction I have Transmission running on my linux server for BitTorrent transfers. I have been accessing the web interface using the IP address of the server in the URL like a dirty animal. It&rsquo;s time to use the hostname of my server for this.
-Configuration Before making any changes to the settings, Transmission has to be stopped otherwise it will overwrite those changes
-sudo systemctl stop transmission-daemon  Open the settings for editing</p>
-<hr>
+	</div>
+	<div>
+		<p>
+		
+			For anyone still addressing by IP address
+		
+		</p>
+	</div>
+	<hr>
+</div>
 
     
-        <span>
-    <h1>
-        <a href="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">Bonding ethernet interfaces with systemd-networkd</a>
-    </h1>
+        <div>
+	<div>
+		<h1>
+			<a href="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">Bonding ethernet interfaces with systemd-networkd</a>
+		</h1>
 
-    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-11-02 16:36:51 &#43;0000 UTC">02-11-2019</time>&nbsp;&nbsp;
 
 
@@ -252,13 +267,16 @@ sudo systemctl stop transmission-daemon  Open the settings for editing</p>
    
 
 
-</span>
-
-<p>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki. My server runs Debian Buster.
-Migrating to systemd-networkd I used systemd-networkd to configure the bond interface. My system already uses systemd, so I just had to enable systemd-networkd.
-sudo systemctl enable systemd-networkd  I also set up systemd-resolved to provide name resolution.
-sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.</p>
-<hr>
+	</div>
+	<div>
+		<p>
+		
+			Link aggregation on a home server for increased throughput
+		
+		</p>
+	</div>
+	<hr>
+</div>
 
     
 

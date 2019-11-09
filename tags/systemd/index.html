@@ -55,12 +55,13 @@
 
     
     
-        <span>
-    <h1>
-        <a href="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">Bonding ethernet interfaces with systemd-networkd</a>
-    </h1>
+        <div>
+	<div>
+		<h1>
+			<a href="//eidoom.github.io/post/bonding-ethernet-interfaces-on-debian-stretch/">Bonding ethernet interfaces with systemd-networkd</a>
+		</h1>
 
-    <i class="fa fa-calendar"></i>&nbsp;&nbsp;
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-11-02 16:36:51 &#43;0000 UTC">02-11-2019</time>&nbsp;&nbsp;
 
 
@@ -101,13 +102,16 @@
    
 
 
-</span>
-
-<p>I set up my linux server to use its two ethernet interfaces in parallel. My primary reference was from the Debian wiki. My server runs Debian Buster.
-Migrating to systemd-networkd I used systemd-networkd to configure the bond interface. My system already uses systemd, so I just had to enable systemd-networkd.
-sudo systemctl enable systemd-networkd  I also set up systemd-resolved to provide name resolution.
-sudo systemctl enable systemd-resolved ln -sf /run/systemd/resolve/stub-resolv.</p>
-<hr>
+	</div>
+	<div>
+		<p>
+		
+			Link aggregation on a home server for increased throughput
+		
+		</p>
+	</div>
+	<hr>
+</div>
 
     
 
