@@ -19,7 +19,7 @@
 		
 		
 
-		<meta name="generator" content="Hugo 0.58.3" />
+		<meta name="generator" content="Hugo 0.59.1" />
 
 		<!--[if lte IE 8]><script src='//eidoom.github.io/js/ie/html5shiv.js'></script><![endif]-->
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -118,7 +118,7 @@ Here&rsquo;s the solution I found which worked.</p>
 
 <p>and install the drivers with</p>
 
-<pre><code class="language-shell">sudo dnf install --repo fedora-nvidia nvidia-driver akmod-nvidia nvidia-driver-libs.i686 nvidia-settings
+<pre><code class="language-shell">sudo dnf install --repo fedora-nvidia nvidia-driver dkms-nvidia nvidia-driver-libs.i686 nvidia-settings
 </code></pre>
 
 <p>Disable Nouveau by appending <code>rd.driver.blacklist=nouveau</code> to <code>GRUB_CMDLINE_LINUX</code> in <code>/etc/sysconfig/grub</code>.
