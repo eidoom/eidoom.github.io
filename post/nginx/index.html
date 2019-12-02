@@ -93,7 +93,6 @@
 
 <p>I have <a href="../../tags/server">a few services running on my home server</a>, so I set up a simple web page with links to each service.
 To generate (static) content, I decided to use <a href="https://pandoc.org/">pandoc</a> to generate html from a Markdown file.
-Since I didn&rsquo;t bother with any styling, it&rsquo;s ugly, but simple.
 I used <a href="https://nginx.org/">Nginx</a> to serve the web page.</p>
 
 <h2 id="installing-nginx-and-pandoc">Installing Nginx and pandoc</h2>
@@ -172,24 +171,21 @@ tcp6       0      0 :::24601                :::*                    LISTEN      
 
 <p>Write the content in Markdown</p>
 
-<pre><code>vim ~/www/index.html
+<pre><code>cd ~/www
+vim index.html
 </code></pre>
 
-<p>then generate the html</p>
+<p>I lazily styled it with the css from a pandoc example</p>
 
-<pre><code>pandoc -o index.html index.md
+<pre><code>wget https://pandoc.org/demo/pandoc.css
 </code></pre>
-
-<p>and access the dashboard at <code>http://ryanserver:24601/</code>.</p>
-
-<h2 id="adding-a-shortcut-for-generation">Adding a shortcut for generation</h2>
 
 <p>I wrote a short Makefile for the generation step</p>
 
-<pre><code>echo &quot;all:\n\tpandoc -o index.html index.md&quot; &gt; Makefile
+<pre><code>echo &quot;all:\n\tpandoc index.md -f markdown -t html5 -s --highlight-style haddock -c pandoc.css -o index.html&quot; &gt; Makefile
 </code></pre>
 
-<p>Use with <code>make</code>.</p>
+<p>Generate the html with <code>make</code> and access the dashboard at <code>http://ryanserver:24601/</code>.</p>
 
 	</p>
 

@@ -17,7 +17,7 @@
       <pubDate>Mon, 02 Dec 2019 14:51:04 +0000</pubDate>
       
       <guid>//eidoom.github.io/post/nginx/</guid>
-      <description>I have a few services running on my home server, so I set up a simple web page with links to each service. To generate (static) content, I decided to use pandoc to generate html from a Markdown file. Since I didn&amp;rsquo;t bother with any styling, it&amp;rsquo;s ugly, but simple. I used Nginx to serve the web page.
+      <description>I have a few services running on my home server, so I set up a simple web page with links to each service. To generate (static) content, I decided to use pandoc to generate html from a Markdown file. I used Nginx to serve the web page.
 Installing Nginx and pandoc Simple! Since we&amp;rsquo;re on Debian
 $ sudo apt install nginx pandoc net-tools  I included net-tools for diagnostics.</description>
     </item>
