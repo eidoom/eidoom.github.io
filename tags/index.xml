@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ryan Moodie</title>
@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 09 Nov 2019 17:53:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 14:51:04 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux</title>
+      <link>//eidoom.github.io/tags/linux/</link>
+      <pubDate>Mon, 02 Dec 2019 14:51:04 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>//eidoom.github.io/tags/server/</link>
+      <pubDate>Mon, 02 Dec 2019 14:51:04 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>//eidoom.github.io/tags/web/</link>
+      <pubDate>Mon, 02 Dec 2019 14:51:04 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/web/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>desktop</title>
@@ -26,24 +53,6 @@
       <pubDate>Sat, 09 Nov 2019 17:53:14 +0000</pubDate>
       
       <guid>//eidoom.github.io/tags/installation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>//eidoom.github.io/tags/linux/</link>
-      <pubDate>Sat, 09 Nov 2019 17:53:14 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>server</title>
-      <link>//eidoom.github.io/tags/server/</link>
-      <pubDate>Sat, 09 Nov 2019 17:53:14 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/tags/server/</guid>
       <description></description>
     </item>
     

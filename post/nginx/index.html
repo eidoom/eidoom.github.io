@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>drivers &middot; Ryan Moodie</title>
+		<title>A dashboard for my home server &middot; Ryan Moodie</title>
 		<link rel="shortcut icon" href="//eidoom.github.io//favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,8 +12,8 @@
 		
 		<meta name="og:site_name" content="Ryan Moodie">
 		<meta name="og:description" content="Theoretical physicist">
-		<meta name="og:title" content="drivers">
-		<meta name="og:url" content="//eidoom.github.io/tags/drivers/">
+		<meta name="og:title" content="A dashboard for my home server">
+		<meta name="og:url" content="//eidoom.github.io/post/nginx/">
 		
 		<meta name="og:image" content="//eidoom.github.io/images/my_avatar.jpg">
 		
@@ -27,9 +27,6 @@
 		<link rel="stylesheet" href="//eidoom.github.io/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="//eidoom.github.io//css/ie8.css"><![endif]-->
 
-		
-		<link href="/tags/drivers/index.xml" rel="alternate" type="application/rss+xml" title="Ryan Moodie" />
-		<link href="/tags/drivers/index.xml" rel="feed" type="application/rss+xml" title="Ryan Moodie" />
 		
 		
 		<link rel="stylesheet" href="//eidoom.github.io/css/custom.css">
@@ -51,21 +48,14 @@
 		<!-- Main -->
 		<div id="main">
 			
-    
-
-    
-    
-        <div>
-	<div>
-		<h1>
-			<a href="//eidoom.github.io/post/nvidia-drivers-on-fedora/">Installing Nvidia drivers on Fedora</a>
-		</h1>
+	<span>
+		<h1>A dashboard for my home server</h1>
 
 		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2019-11-09 14:12:40 &#43;0000 UTC">09-11-2019</time>&nbsp;&nbsp;
+<time datetime="2019-12-02 14:51:04 &#43;0000 UTC">02-12-2019</time>&nbsp;&nbsp;
 
 
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 1 min read&nbsp;&nbsp;
+<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 2 min read&nbsp;&nbsp;
 
 
 
@@ -84,36 +74,126 @@
    
        &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
        
-       <a class="article-category-link" href="//eidoom.github.io/tags/desktop">desktop</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/drivers">drivers</a>
-       &middot;
-       
-       <a class="article-category-link" href="//eidoom.github.io/tags/installation">installation</a>
-       &middot;
-       
        <a class="article-category-link" href="//eidoom.github.io/tags/linux">linux</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/server">server</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/web">web</a>
        
        
    
 
 
-	</div>
-	<div>
-		<p>
-		
-			How to get the proprietary drivers working
-		
-		</p>
-	</div>
-	<hr>
-</div>
+	</span>
 
-    
+	<p>
+	    
 
-    
+<p>I have <a href="../../tags/server">a few services running on my home server</a>, so I set up a simple web page with links to each service.
+To generate (static) content, I decided to use <a href="https://pandoc.org/">pandoc</a> to generate html from a Markdown file.
+Since I didn&rsquo;t bother with any styling, it&rsquo;s ugly, but simple.
+I used <a href="https://nginx.org/">Nginx</a> to serve the web page.</p>
 
+<h2 id="installing-nginx-and-pandoc">Installing Nginx and pandoc</h2>
+
+<p>Simple! Since we&rsquo;re on Debian</p>
+
+<pre><code class="language-shell">$ sudo apt install nginx pandoc net-tools
+</code></pre>
+
+<p>I included <code>net-tools</code> for diagnostics.</p>
+
+<h2 id="setting-a-custom-port-for-nginx">Setting a custom port for Nginx</h2>
+
+<p>Since <a href="../home-network-ad-blocking-with-pi-hole/">Pi-hole was running on this machine</a>, I had to change the port that Nginx would use.
+Choosing a memorable number, I decided to set the port to be <code>24601</code>.</p>
+
+<p>Open up the settings file</p>
+
+<pre><code class="language-shell">$ sudo vim /etc/nginx/sites-enabled/default
+</code></pre>
+
+<p>and change</p>
+
+<pre><code class="language-shell">listen 80 default_server;
+listen [::]:80 default_server;
+</code></pre>
+
+<p>to</p>
+
+<pre><code class="language-shell">listen 24601 default_server;
+listen [::]:24601 default_server;
+</code></pre>
+
+<p>Then</p>
+
+<pre><code class="language-shell">$ sudo systemctl restart nginx
+</code></pre>
+
+<p>and confirm success with</p>
+
+<pre><code class="language-shell">$ sudo netstat -tlpn | grep nginx
+</code></pre>
+
+<pre><code class="language-shell">tcp        0      0 0.0.0.0:24601           0.0.0.0:*               LISTEN      5377/nginx: master  
+tcp6       0      0 :::24601                :::*                    LISTEN      5377/nginx: master  
+</code></pre>
+
+<h2 id="serving-static-content">Serving static content</h2>
+
+<p>I decided to keep the content in my home directory.</p>
+
+<pre><code class="language-shell">mkdir ~/www
+</code></pre>
+
+<p>To tell Nginx this, open</p>
+
+<pre><code class="language-shell">$ sudo vim /etc/nginx/sites-enabled/default
+</code></pre>
+
+<p>and change</p>
+
+<pre><code class="language-shell">root /var/www/html;
+</code></pre>
+
+<p>to</p>
+
+<pre><code class="language-shell">root /home/USER/www;
+</code></pre>
+
+<p>then</p>
+
+<pre><code class="language-shell">$ sudo systemctl restart nginx
+</code></pre>
+
+<h2 id="generating-static-content">Generating static content</h2>
+
+<p>Write the content in Markdown</p>
+
+<pre><code>vim ~/www/index.html
+</code></pre>
+
+<p>then generate the html</p>
+
+<pre><code>pandoc -o index.html index.md
+</code></pre>
+
+<p>and access the dashboard at <code>http://ryanserver:24601/</code>.</p>
+
+<h2 id="adding-a-shortcut-for-generation">Adding a shortcut for generation</h2>
+
+<p>I wrote a short Makefile for the generation step</p>
+
+<pre><code>echo &quot;all:\n\tpandoc -o index.html index.md&quot; &gt; Makefile
+</code></pre>
+
+<p>Use with <code>make</code>.</p>
+
+	</p>
+
+	
 
 		</div>
 

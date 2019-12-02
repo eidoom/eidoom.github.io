@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>server on Ryan Moodie</title>
@@ -6,10 +6,21 @@
     <description>Recent content in server on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 09 Nov 2019 17:53:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 14:51:04 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A dashboard for my home server</title>
+      <link>//eidoom.github.io/post/nginx/</link>
+      <pubDate>Mon, 02 Dec 2019 14:51:04 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/post/nginx/</guid>
+      <description>I have a few services running on my home server, so I set up a simple web page with links to each service. To generate (static) content, I decided to use pandoc to generate html from a Markdown file. Since I didn&amp;rsquo;t bother with any styling, it&amp;rsquo;s ugly, but simple. I used Nginx to serve the web page.
+Installing Nginx and pandoc Simple! Since we&amp;rsquo;re on Debian
+$ sudo apt install nginx pandoc net-tools  I included net-tools for diagnostics.</description>
+    </item>
     
     <item>
       <title>File sharing with NFS</title>
