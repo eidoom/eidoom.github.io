@@ -6,10 +6,21 @@
     <description>Recent content in linux on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 02 Dec 2019 14:51:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 16:23:53 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Autostarting services with systemd</title>
+      <link>//eidoom.github.io/post/daemon/</link>
+      <pubDate>Mon, 02 Dec 2019 16:23:53 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/post/daemon/</guid>
+      <description>Introduction There are sufficiently many services running on my home server now that starting them all manually after I restart the machine has become tedious, as infrequently as it occurs. Systemd can be used to automate this.
+Case study One such service is beets web. To make it run on system start-up, simply create a .service file in /etc/systemd/system/
+$ sudo vim /etc/systemd/system/beetsweb.service  [Unit] Description=Beets web daemon After=network.target [Service] User=ryan Group=ryan ExecStart=python3 -m beets web Type=simple TimeoutStopSec=20 KillMode=process Restart=on-failure [Install] WantedBy=multi-user.</description>
+    </item>
     
     <item>
       <title>A dashboard for my home server</title>

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Tags &middot; Ryan Moodie</title>
+		<title>Autostarting services with systemd &middot; Ryan Moodie</title>
 		<link rel="shortcut icon" href="//eidoom.github.io//favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,8 +12,8 @@
 		
 		<meta name="og:site_name" content="Ryan Moodie">
 		<meta name="og:description" content="Theoretical physicist">
-		<meta name="og:title" content="Tags">
-		<meta name="og:url" content="//eidoom.github.io/tags/">
+		<meta name="og:title" content="Autostarting services with systemd">
+		<meta name="og:url" content="//eidoom.github.io/post/daemon/">
 		
 		<meta name="og:image" content="//eidoom.github.io/images/my_avatar.jpg">
 		
@@ -27,9 +27,6 @@
 		<link rel="stylesheet" href="//eidoom.github.io/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="//eidoom.github.io//css/ie8.css"><![endif]-->
 
-		
-		<link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Ryan Moodie" />
-		<link href="/tags/index.xml" rel="feed" type="application/rss+xml" title="Ryan Moodie" />
 		
 		
 		<link rel="stylesheet" href="//eidoom.github.io/css/custom.css">
@@ -51,168 +48,99 @@
 		<!-- Main -->
 		<div id="main">
 			
-    
-
-    
-    
-        <div>
-	<div>
-		<h1>
-			<a href="//eidoom.github.io/tags/linux/">linux</a>
-		</h1>
+	<span>
+		<h1>Autostarting services with systemd</h1>
 
 		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
 <time datetime="2019-12-02 16:23:53 &#43;0000 UTC">02-12-2019</time>&nbsp;&nbsp;
 
 
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 0 min read&nbsp;&nbsp;
+<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 1 min read&nbsp;&nbsp;
 
 
-
-
-
-
-	</div>
-	<div>
-		<p>
-		
-			
-		
-		</p>
-	</div>
-	<hr>
-</div>
-
-    
-        <div>
-	<div>
-		<h1>
-			<a href="//eidoom.github.io/tags/server/">server</a>
-		</h1>
-
-		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2019-12-02 16:23:53 &#43;0000 UTC">02-12-2019</time>&nbsp;&nbsp;
-
-
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 0 min read&nbsp;&nbsp;
-
-
-
-
-
-
-	</div>
-	<div>
-		<p>
-		
-			
-		
-		</p>
-	</div>
-	<hr>
-</div>
-
-    
-        <div>
-	<div>
-		<h1>
-			<a href="//eidoom.github.io/tags/systemd/">systemd</a>
-		</h1>
-
-		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2019-12-02 16:23:53 &#43;0000 UTC">02-12-2019</time>&nbsp;&nbsp;
-
-
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 0 min read&nbsp;&nbsp;
-
-
-
-
-
-
-	</div>
-	<div>
-		<p>
-		
-			
-		
-		</p>
-	</div>
-	<hr>
-</div>
-
-    
-        <div>
-	<div>
-		<h1>
-			<a href="//eidoom.github.io/tags/web/">web</a>
-		</h1>
-
-		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2019-12-02 14:51:04 &#43;0000 UTC">02-12-2019</time>&nbsp;&nbsp;
-
-
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 0 min read&nbsp;&nbsp;
-
-
-
-
-
-
-	</div>
-	<div>
-		<p>
-		
-			
-		
-		</p>
-	</div>
-	<hr>
-</div>
-
-    
-        <div>
-	<div>
-		<h1>
-			<a href="//eidoom.github.io/tags/desktop/">desktop</a>
-		</h1>
-
-		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2019-11-09 17:53:14 &#43;0000 UTC">09-11-2019</time>&nbsp;&nbsp;
-
-
-<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 0 min read&nbsp;&nbsp;
-
-
-
-
-
-
-	</div>
-	<div>
-		<p>
-		
-			
-		
-		</p>
-	</div>
-	<hr>
-</div>
-
-    
 
     
     
-
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="//eidoom.github.io/categories/computing">computing</a>
+        
+        
     
 
-    
-        <a class="button" rel="next" href="//eidoom.github.io//tags/page/2/">
-            Older »
-        </a>
-    
 
 
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/linux">linux</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/server">server</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/systemd">systemd</a>
+       
+       
+   
+
+
+	</span>
+
+	<p>
+	    
+
+<h2 id="introduction">Introduction</h2>
+
+<p>There are sufficiently many services running on my home server now that starting them all manually after I restart the machine has become tedious, as infrequently as it occurs.
+Systemd can be used to automate this.</p>
+
+<h2 id="case-study">Case study</h2>
+
+<p>One such service is <a href="../nerdifying-music-library-management-with-beets"><code>beets web</code></a>.
+To make it run on system start-up, simply create a <code>.service</code> file in <code>/etc/systemd/system/</code></p>
+
+<pre><code class="language-shell">$ sudo vim /etc/systemd/system/beetsweb.service
+</code></pre>
+
+<pre><code>[Unit]
+Description=Beets web daemon
+After=network.target
+
+[Service]
+User=ryan
+Group=ryan
+
+ExecStart=python3 -m beets web
+
+Type=simple
+TimeoutStopSec=20
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+
+<p>To check that it works, manually start the daemon with</p>
+
+<pre><code class="language-shell">sudo systemctl start beetsweb
+</code></pre>
+
+<p>If the <code>.service</code> file needs changing, the configuration should be reloaded with</p>
+
+<pre><code class="language-shell">sudo systemctl start beetsweb
+</code></pre>
+
+<p>Once it&rsquo;s ready to use, activate running on startup with</p>
+
+<pre><code class="language-shell">sudo systemctl enable beetsweb
+</code></pre>
+
+	</p>
+
+	
 
 		</div>
 

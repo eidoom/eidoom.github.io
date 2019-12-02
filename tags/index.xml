@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 02 Dec 2019 14:51:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 16:23:53 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>linux</title>
       <link>//eidoom.github.io/tags/linux/</link>
-      <pubDate>Mon, 02 Dec 2019 14:51:04 +0000</pubDate>
+      <pubDate>Mon, 02 Dec 2019 16:23:53 +0000</pubDate>
       
       <guid>//eidoom.github.io/tags/linux/</guid>
       <description></description>
@@ -23,9 +23,18 @@
     <item>
       <title>server</title>
       <link>//eidoom.github.io/tags/server/</link>
-      <pubDate>Mon, 02 Dec 2019 14:51:04 +0000</pubDate>
+      <pubDate>Mon, 02 Dec 2019 16:23:53 +0000</pubDate>
       
       <guid>//eidoom.github.io/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systemd</title>
+      <link>//eidoom.github.io/tags/systemd/</link>
+      <pubDate>Mon, 02 Dec 2019 16:23:53 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/tags/systemd/</guid>
       <description></description>
     </item>
     
@@ -98,15 +107,6 @@
       <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
       
       <guid>//eidoom.github.io/tags/debian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>systemd</title>
-      <link>//eidoom.github.io/tags/systemd/</link>
-      <pubDate>Sat, 02 Nov 2019 16:36:51 +0000</pubDate>
-      
-      <guid>//eidoom.github.io/tags/systemd/</guid>
       <description></description>
     </item>
     
