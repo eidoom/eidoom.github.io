@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ryan Moodie</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 02 Dec 2019 16:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 11:12:27 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>computing</title>
       <link>//eidoom.github.io/categories/computing/</link>
-      <pubDate>Mon, 02 Dec 2019 16:23:53 +0000</pubDate>
+      <pubDate>Thu, 05 Dec 2019 11:12:27 +0000</pubDate>
       
       <guid>//eidoom.github.io/categories/computing/</guid>
       <description></description>

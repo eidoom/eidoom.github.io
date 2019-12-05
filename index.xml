@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ryan Moodie</title>
@@ -6,10 +6,21 @@
     <description>Recent content on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 02 Dec 2019 16:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 11:12:27 +0000</lastBuildDate>
     
 	<atom:link href="//eidoom.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Configuring Neovim</title>
+      <link>//eidoom.github.io/post/neovim/</link>
+      <pubDate>Thu, 05 Dec 2019 11:12:27 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/post/neovim/</guid>
+      <description>Introduction I&amp;rsquo;ve been using vim as one of my go-to text editors for some time. I decided to replace it with Neovim, or nvim, and configure it from scratch using vim-bootstrap. vim-bootstrap uses vim-plug as the (n)vim package manager, which is what I was using previously with vim.
+Installation I installed nvim and prerequisites for vim-bootstrap
+sudo dnf install ncurses-devel git ctags-etags curl neovim python3-neovim python3-pyflakes python3-jedi python3-flake8 vim-go sudo npm install -g neovim  Change default I set nvim as the default terminal text editor and aliased calls to vi and vim</description>
+    </item>
     
     <item>
       <title>Autostarting services with systemd</title>
@@ -31,6 +42,17 @@ $ sudo vim /etc/systemd/system/beetsweb.service  [Unit] Description=Beets web da
       <description>I have a few services running on my home server, so I set up a simple web page with links to each service. To generate (static) content, I decided to use pandoc to generate html from a Markdown file. I used Nginx to serve the web page.
 Installing Nginx and pandoc Simple! Since we&amp;rsquo;re on Debian
 $ sudo apt install nginx pandoc net-tools  I included net-tools for diagnostics.</description>
+    </item>
+    
+    <item>
+      <title>Configuring tmux</title>
+      <link>//eidoom.github.io/post/tmux/</link>
+      <pubDate>Tue, 12 Nov 2019 11:43:49 +0000</pubDate>
+      
+      <guid>//eidoom.github.io/post/tmux/</guid>
+      <description>Introduction To have multiple windows and panes in my terminal, I use the terminal multiplexer tmux. I installed it with
+sudo dnf install tmux  Configuration The tmux configuration is stored at ~/.tmux.conf. I initially customised it as
+$ vi ~/.tmux.conf  # Set zsh as default shell set -g default-shell /bin/zsh # Set indexing to match the keyboard set -g base-index 1 # Automatically set window title setw -g automatic-rename on set -g set-titles on # Mouse mode set -g mouse on # Alt-arrow without prefix key to switch panes bind -n M-Left select-pane -L bind -n M-Down select-pane -D bind -n M-Up select-pane -U bind -n M-Right select-pane -R # Shift-arrow without prefix key to switch windows bind -n S-Left previous-window bind -n S-Right next-window # Reload tmux config bind r source-file ~/.</description>
     </item>
     
     <item>

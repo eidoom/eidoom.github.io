@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Configuring Neovim &middot; Ryan Moodie</title>
+		<link rel="shortcut icon" href="//eidoom.github.io//favicon.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Ryan Iain Moodie">
+		<meta name="description" content="Theoretical physicist">
+		<meta http-equiv="content-language" content="en-gb" />
+
+		
+		<meta name="og:site_name" content="Ryan Moodie">
+		<meta name="og:description" content="Theoretical physicist">
+		<meta name="og:title" content="Configuring Neovim">
+		<meta name="og:url" content="//eidoom.github.io/post/neovim/">
+		
+		<meta name="og:image" content="//eidoom.github.io/images/my_avatar.jpg">
+		
+		
+
+		<meta name="generator" content="Hugo 0.58.3" />
+
+		<!--[if lte IE 8]><script src='//eidoom.github.io/js/ie/html5shiv.js'></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="//eidoom.github.io/academicons/css/academicons.css"/>
+		<link rel="stylesheet" href="//eidoom.github.io/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="//eidoom.github.io//css/ie8.css"><![endif]-->
+
+		
+		
+		<link rel="stylesheet" href="//eidoom.github.io/css/custom.css">
+		
+	</head>
+
+	<body id="top">
+		<!-- Header -->
+<header id="header">
+	<a href="//eidoom.github.io/" class="image avatar"><img src="//eidoom.github.io/images/my_avatar.jpg" alt="Ryan Moodie"></a>	
+	
+
+	
+</header>
+
+
+
+
+		<!-- Main -->
+		<div id="main">
+			
+	<span>
+		<h1>Configuring Neovim</h1>
+
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2019-12-05 11:12:27 &#43;0000 UTC">05-12-2019</time>&nbsp;&nbsp;
+
+
+<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 2 min read&nbsp;&nbsp;
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="//eidoom.github.io/categories/computing">computing</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/environment">environment</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/installation">installation</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/linux">linux</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/terminal">terminal</a>
+       
+       
+   
+
+
+	</span>
+
+	<p>
+	    
+
+<h2 id="introduction">Introduction</h2>
+
+<p>I&rsquo;ve been using <a href="https://www.vim.org/"><code>vim</code></a> as one of my go-to text editors for some time.
+I decided to replace it with <a href="https://github.com/neovim/neovim">Neovim</a>, or <code>nvim</code>, and configure it from scratch using <a href="https://github.com/editor-bootstrap/vim-bootstrap"><code>vim-bootstrap</code></a>.
+<code>vim-bootstrap</code> uses <a href="https://github.com/junegunn/vim-plug"><code>vim-plug</code></a> as the <code>(n)vim</code> package manager, which is what I was using previously with <code>vim</code>.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>I installed <code>nvim</code> and prerequisites for <code>vim-bootstrap</code></p>
+
+<pre><code class="language-sh">sudo dnf install ncurses-devel git ctags-etags curl neovim python3-neovim python3-pyflakes python3-jedi python3-flake8 vim-go
+sudo npm install -g neovim
+</code></pre>
+
+<h2 id="change-default">Change default</h2>
+
+<p>I set <code>nvim</code> as the default terminal text editor and aliased calls to <code>vi</code> and <code>vim</code></p>
+
+<pre><code class="language-sh">echo &quot;EDITOR=nvim\nVISUAL=nvim\nalias vi=nvim\nalias vim=nvim&quot; &gt;&gt; ~/.zshrc
+</code></pre>
+
+<h2 id="initial-configuration">Initial configuration</h2>
+
+<p><code>nvim</code> settings are at <code>~/.config/nvim/init.vim</code>.
+I used <code>vim-bootstrap</code> to generate the initial configuration</p>
+
+<pre><code class="language-sh">go get github.com/avelino/vim-bootstrap
+cd $GOPATH/src/github.com/avelino/vim-bootstrap
+go build
+mkdir ~/.config/nvim
+vim-bootstrap -langs=c,go,html,javascript,python -editor=nvim &gt;! ~/.config/nvim/init.vim
+</code></pre>
+
+<h2 id="plugins">Plugins</h2>
+
+<p><code>vim-bootstrap</code> sets up <code>vim-plug</code> as the <code>nvim</code> package manager.
+<code>vim-plug</code> will install all packages in the new configuration file the first time <code>nvim</code> is run.</p>
+
+<h2 id="customisation">Customisation</h2>
+
+<p>When using <code>vim-bootstrap</code>, custom settings are in <code>~/.config/nvim/local_init.vim</code>.
+I edited it to include the following</p>
+
+<pre><code class="language-sh"> $ vi ~/.config/nvim/local_init.vim
+</code></pre>
+
+<pre><code class="language-sh"># Enable mouse
+set mouse=a
+
+# Stop any hiding
+let g:indentLine_setConceal=0
+
+# Make the powerline use the solarized colour scheme
+let g:airline_theme='solarized'
+
+# Get fancy powerline symbols
+let g:airline_powerline_fonts=1
+</code></pre>
+
+<p>Custom plugins are defined in <code>~/.config/nvim/local_bundles.vim</code>.
+I added</p>
+
+<pre><code class="language-sh">$ vi ~/.config/nvim/local_bundles.vim
+</code></pre>
+
+<pre><code class="language-sh">Plug 'terryma/vim-multiple-cursors'
+</code></pre>
+
+<h2 id="colours">Colours</h2>
+
+<p>I use the <a href="https://github.com/altercation/solarized">solarised colour scheme</a> for my terminal.
+I use <code>nvim</code> in <code>tmux</code>, which is set up to use <code>truecolor</code> as described <a href="../tmux">here</a>.
+This <code>tmux</code> configuration is required for the following.</p>
+
+<p>To get a <code>truecolor</code> <code>solarized</code> colour palette working in <code>nvim</code>, I used <a href="https://github.com/iCyMind/NeoSolarized">NeoSolarized</a>.
+I added it as a <code>vim-plug</code> plugin by adding</p>
+
+<pre><code class="language-sh">echo &quot;Plug 'iCyMind/NeoSolarized'&quot; &gt;&gt; ~/.config/nvim/local_bundles.vim
+</code></pre>
+
+<p>then running <code>:PlugUpdate</code> in <code>nvim</code>.
+I enabled <code>truecolor</code> in <code>nvim</code> with</p>
+
+<pre><code class="language-sh">echo &quot;set termguicolors&quot; &gt;&gt; ~/.config/nvim/local_init.vim
+</code></pre>
+
+<p>and set the colour palette with</p>
+
+<pre><code class="language-sh">echo &quot;colorscheme NeoSolarized&quot; &gt;&gt; ~/.config/nvim/local_init.vim
+</code></pre>
+
+<p>Following <a href="https://github.com/iCyMind/NeoSolarized#truecolor-test">this</a>, I tested that it was working by opening a terminal in <code>nvim</code> by <code>:terminal</code> and running</p>
+
+<pre><code class="language-sh">awk 'BEGIN{
+    s=&quot;/\\/\\/\\/\\/\\&quot;; s=s s s s s s s s;
+    for (colnum = 0; colnum&lt;77; colnum++) {
+        r = 255-(colnum*255/76);
+        g = (colnum*510/76);
+        b = (colnum*255/76);
+        if (g&gt;255) g = 510-g;
+        printf &quot;\033[48;2;%d;%d;%dm&quot;, r,g,b;
+        printf &quot;\033[38;2;%d;%d;%dm&quot;, 255-r,255-g,255-b;
+        printf &quot;%s\033[0m&quot;, substr(s,colnum+1,1);
+    }
+    printf &quot;\n&quot;;
+}'
+</code></pre>
+
+<p>which shows a colour bar of smoothly changing colour in <code>truecolor</code> and discrete colour blocks elsewise.</p>
+
+	</p>
+
+	
+
+		</div>
+
+		<!-- Footer -->
+<footer id="footer">
+    <a href="//eidoom.github.io/" class="signature">
+        <img src="//eidoom.github.io/images/signature_invert.png" alt="Ryan Moodie">
+    </a>
+    <ul class="icons">
+        
+            <li>
+                <a href="//arxiv.org/a/moodie_r_1.html" target="_blank" class="ai ai-arxiv ai-2x">
+                    <span class="label">arXiv</span>
+                </a>
+            </li>
+        
+        
+            <li>
+                <a href="//github.com/eidoom" target="_blank" class="icon fa-github fa-lg">
+                    <span class="label">GitHub</span>
+                </a>
+            </li>
+        
+        
+            <li>
+                <a href="//gitlab.com/eidoom" target="_blank" class="icon fa-gitlab fa-lg">
+                    <span class="label">GitLab</span>
+                </a>
+            </li>
+        
+        
+            <li>
+                <a href="//bitbucket.com/ryanmoodie" target="_blank" class="icon fa-bitbucket fa-lg">
+                    <span class="label">BitBucket</span>
+                </a>
+            </li>
+        
+    </ul>
+    <ul class="copyright">
+        
+        <li>Design: <a href="//github.com/digitalcraftsman/hugo-strata-theme">Strata</a></li>
+        
+        <li>Pictures: <a href="//www.instagram.com/yazashmawi/">Yaz Ashmawi</a></li>
+        
+	<li><a rel="license" class="icon"  href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></li>
+    </ul>
+</footer>
+
+<!-- Scripts -->
+<script src="//eidoom.github.io/js/jquery.min.js"></script>
+<script src="//eidoom.github.io/js/jquery.poptrox.min.js"></script>
+<script src="//eidoom.github.io/js/skel.min.js"></script>
+<script src="//eidoom.github.io/js/util.js"></script>
+
+<script src="//eidoom.github.io/js/main.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-66224969-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+	</body>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Configuring tmux &middot; Ryan Moodie</title>
+		<link rel="shortcut icon" href="//eidoom.github.io//favicon.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Ryan Iain Moodie">
+		<meta name="description" content="Theoretical physicist">
+		<meta http-equiv="content-language" content="en-gb" />
+
+		
+		<meta name="og:site_name" content="Ryan Moodie">
+		<meta name="og:description" content="Theoretical physicist">
+		<meta name="og:title" content="Configuring tmux">
+		<meta name="og:url" content="//eidoom.github.io/post/tmux/">
+		
+		<meta name="og:image" content="//eidoom.github.io/images/my_avatar.jpg">
+		
+		
+
+		<meta name="generator" content="Hugo 0.58.3" />
+
+		<!--[if lte IE 8]><script src='//eidoom.github.io/js/ie/html5shiv.js'></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="//eidoom.github.io/academicons/css/academicons.css"/>
+		<link rel="stylesheet" href="//eidoom.github.io/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="//eidoom.github.io//css/ie8.css"><![endif]-->
+
+		
+		
+		<link rel="stylesheet" href="//eidoom.github.io/css/custom.css">
+		
+	</head>
+
+	<body id="top">
+		<!-- Header -->
+<header id="header">
+	<a href="//eidoom.github.io/" class="image avatar"><img src="//eidoom.github.io/images/my_avatar.jpg" alt="Ryan Moodie"></a>	
+	
+
+	
+</header>
+
+
+
+
+		<!-- Main -->
+		<div id="main">
+			
+	<span>
+		<h1>Configuring tmux</h1>
+
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2019-11-12 11:43:49 &#43;0000 UTC">12-11-2019</time>&nbsp;&nbsp;
+
+
+<i class="fa fa-clock-o"></i>&nbsp;&nbsp; 3 min read&nbsp;&nbsp;
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="//eidoom.github.io/categories/computing">computing</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/environment">environment</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/installation">installation</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/linux">linux</a>
+       &middot;
+       
+       <a class="article-category-link" href="//eidoom.github.io/tags/terminal">terminal</a>
+       
+       
+   
+
+
+	</span>
+
+	<p>
+	    
+
+<h2 id="introduction">Introduction</h2>
+
+<p>To have multiple windows and panes in my terminal, I use the terminal multiplexer <a href="https://github.com/tmux/tmux/wiki"><code>tmux</code></a>.
+I installed it with</p>
+
+<pre><code class="language-sh">sudo dnf install tmux
+</code></pre>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>The <code>tmux</code> configuration is stored at <code>~/.tmux.conf</code>.
+I initially customised it as</p>
+
+<pre><code class="language-sh">$ vi ~/.tmux.conf
+</code></pre>
+
+<pre><code class="language-sh"># Set zsh as default shell
+set -g default-shell /bin/zsh
+
+# Set indexing to match the keyboard
+set -g base-index 1
+
+# Automatically set window title
+setw -g automatic-rename on
+set -g set-titles on
+
+# Mouse mode
+set -g mouse on
+
+# Alt-arrow without prefix key to switch panes
+bind -n M-Left select-pane -L
+bind -n M-Down select-pane -D 
+bind -n M-Up select-pane -U
+bind -n M-Right select-pane -R
+
+# Shift-arrow without prefix key to switch windows
+bind -n S-Left  previous-window
+bind -n S-Right next-window
+
+# Reload tmux config
+bind r source-file ~/.tmux.conf
+bind R source ~/.tmux.conf
+</code></pre>
+
+<p>I left the prefix as the default, <code>Ctrl</code>+<code>b</code>, as I prefer using separate hands for the modifier and letter keys, unlike the commonly used <code>screen</code> default of <code>Crtl</code>+<code>a</code>.</p>
+
+<h2 id="plugins">Plugins</h2>
+
+<p>I use the <code>tmux</code> package manager <a href="https://github.com/tmux-plugins/tpm"><code>tpm</code></a>.
+I installed it by</p>
+
+<pre><code class="language-sh">git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+</code></pre>
+
+<p>then adding the following to the end of <code>~/.tmux.conf</code></p>
+
+<pre><code class="language-sh"># List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-pain-control'
+set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
+
+# Initialize tmux plugin manager (keep this line at the very bottom of tmux.conf!)
+run -b '~/.tmux/plugins/tpm/tpm'
+</code></pre>
+
+<p>and reloading <code>tmux</code> with <code>prefix</code>+<code>R</code>.</p>
+
+<p>This includes a few starter plugins:</p>
+
+<ul>
+<li><a href="https://github.com/tmux-plugins/tmux-sensible"><code>sensible</code></a> gives some&hellip; sensible defaults.</li>
+<li><a href="https://github.com/tmux-plugins/tmux-pain-control"><code>pain-control</code></a> provides some sane pane controls.</li>
+<li><a href="https://github.com/tmux-plugins/tmux-prefix-highlight"><code>prefix-highlight</code></a> changes the colour of the leftmost section of the infobar at the bottom when <code>prefix</code> is engaged.</li>
+</ul>
+
+<p>New plugins are loaded with <code>prefix</code>+<code>I</code>.</p>
+
+<h2 id="persistence">Persistence</h2>
+
+<p>I use <a href="https://github.com/tmux-plugins/tmux-resurrect"><code>resurrect</code></a> to remember my <code>tmux</code> configuration over reboots.
+The restore/save is manually performed by <code>prefix</code>+<code>Ctrl</code>+<code>r</code>/<code>s</code>.
+<a href="https://github.com/tmux-plugins/tmux-continuum"><code>continuum</code></a> automates the process so I don&rsquo;t need to manually save and restore sessions.
+It saves the session automatically and can autorestore with</p>
+
+<pre><code class="language-sh">echo -e &quot;set -g @continuum-restore 'on'\n$(cat ~/.tmux.conf)&quot; &gt;&gt; ~/.tmux.conf
+</code></pre>
+
+<p>where the fancy echo is to prepend the line to the file since <code>tpm</code> must be initialised at the end of the file.
+The <code>-e</code> just <a href="https://ss64.com/bash/echo.html">allows us to use the newline character</a> <code>\n</code>.
+These packages are installed by adding the following to <code>~/.tmux.conf</code></p>
+
+<pre><code class="language-sh">set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+</code></pre>
+
+<p>and reloading with <code>prefix</code>+<code>I</code> then <code>prefix</code>+<code>Ctrl</code>+<code>r</code>.</p>
+
+<h2 id="powerline">Powerline</h2>
+
+<p>I installed <a href="https://github.com/powerline/powerline"><code>powerline</code></a> for <code>tmux</code> with</p>
+
+<pre><code class="language-sh">sudo dnf install tmux-powerline
+echo -e 'source &quot;/usr/share/tmux/powerline.conf&quot;\n$(cat ~/.tmux.conf)' &gt;&gt; ~/.tmux.conf
+</code></pre>
+
+<!--
+```
+sudo npm install -g jsonlint
+mkdir ~/.config/powerline/
+```
+
+and configured it as
+
+```sh
+$ vi ~/.config/powerline/config.json
+```
+
+I checked the configuration with
+
+```sh
+jsonlint ~/.config/powerline/config.json
+powerline-lint
+```
+-->
+
+<h2 id="colours">Colours</h2>
+
+<p>To use <code>truecolor</code>, I set up <code>tmux</code> as follows.
+<code>zprezto</code> (see <a href="../shell">shell configuration</a>) sets the <code>TERM</code> variable</p>
+
+<pre><code class="language-sh">$ echo $TERM
+xterm-256color
+</code></pre>
+
+<p>I enabled <code>truecolor</code> in <code>tmux</code> with</p>
+
+<pre><code class="language-sh">echo -e 'set-option -ga terminal-overrides &quot;,xterm-256color:Tc&quot;\n$(~/.tmux.conf)' &gt;&gt; ~/.tmux.conf
+</code></pre>
+
+<p>I confirmed this worked by restarting <code>tmux</code> and running</p>
+
+<pre><code class="language-sh">$ tmux info | grep Tc
+203: Tc: (flag) true
+</code></pre>
+
+<h2 id="copying">Copying</h2>
+
+<p>I use <code>Shift</code>+ <code>highlight with mouse cursor</code> then <code>Ctrl</code>+<code>Shift</code>+<code>c</code> to copy and <code>Ctrl</code>+<code>Shift</code>+<code>v</code> to paste in a <code>tmux</code> session.</p>
+
+	</p>
+
+	
+
+		</div>
+
+		<!-- Footer -->
+<footer id="footer">
+    <a href="//eidoom.github.io/" class="signature">
+        <img src="//eidoom.github.io/images/signature_invert.png" alt="Ryan Moodie">
+    </a>
+    <ul class="icons">
+        
+            <li>
+                <a href="//arxiv.org/a/moodie_r_1.html" target="_blank" class="ai ai-arxiv ai-2x">
+                    <span class="label">arXiv</span>
+                </a>
+            </li>
+        
+        
+            <li>
+                <a href="//github.com/eidoom" target="_blank" class="icon fa-github fa-lg">
+                    <span class="label">GitHub</span>
+                </a>
+            </li>
+        
+        
+            <li>
+                <a href="//gitlab.com/eidoom" target="_blank" class="icon fa-gitlab fa-lg">
+                    <span class="label">GitLab</span>
+                </a>
+            </li>
+        
+        
+            <li>
+                <a href="//bitbucket.com/ryanmoodie" target="_blank" class="icon fa-bitbucket fa-lg">
+                    <span class="label">BitBucket</span>
+                </a>
+            </li>
+        
+    </ul>
+    <ul class="copyright">
+        
+        <li>Design: <a href="//github.com/digitalcraftsman/hugo-strata-theme">Strata</a></li>
+        
+        <li>Pictures: <a href="//www.instagram.com/yazashmawi/">Yaz Ashmawi</a></li>
+        
+	<li><a rel="license" class="icon"  href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></li>
+    </ul>
+</footer>
+
+<!-- Scripts -->
+<script src="//eidoom.github.io/js/jquery.min.js"></script>
+<script src="//eidoom.github.io/js/jquery.poptrox.min.js"></script>
+<script src="//eidoom.github.io/js/skel.min.js"></script>
+<script src="//eidoom.github.io/js/util.js"></script>
+
+<script src="//eidoom.github.io/js/main.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-66224969-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+	</body>
+</html>
