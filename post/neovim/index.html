@@ -151,6 +151,9 @@ let g:airline_theme='solarized'
 
 # Get fancy powerline symbols
 let g:airline_powerline_fonts=1
+
+# Stop csv syntax highlighting for Sherpa *.dat runcards
+au BufRead,BufNewFile *.dat set filetype=text
 </code></pre>
 
 <p>Custom plugins are defined in <code>~/.config/nvim/local_bundles.vim</code>.
