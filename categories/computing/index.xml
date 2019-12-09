@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>computing on Ryan Moodie</title>
@@ -18,8 +18,8 @@
       
       <guid>//eidoom.github.io/post/neovim/</guid>
       <description>Introduction I&amp;rsquo;ve been using vim as one of my go-to text editors for some time. I decided to replace it with Neovim, or nvim, and configure it from scratch using vim-bootstrap. vim-bootstrap uses vim-plug as the (n)vim package manager, which is what I was using previously with vim.
-Installation I installed nvim and prerequisites for vim-bootstrap
-sudo dnf install ncurses-devel git ctags-etags curl neovim python3-neovim python3-pyflakes python3-jedi python3-flake8 vim-go sudo npm install -g neovim  Change default I set nvim as the default terminal text editor and aliased calls to vi and vim</description>
+Installation I installed nvim and prerequisites for packages and vim-bootstrap
+sudo dnf install ncurses-devel git ctags-etags curl neovim python3-neovim python3-pyflakes python3-jedi python3-flake8 vim-go ripgrep sudo npm install -g neovim  Change default I set nvim as the default terminal text editor and aliased calls to vi and vim</description>
     </item>
     
     <item>
