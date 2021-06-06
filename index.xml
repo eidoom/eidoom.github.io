@@ -38,6 +38,15 @@ I have thoroughly enjoyed reading through all the posts before mine. Thank you a
     </item>
     
     <item>
+      <title>Modelling electron states in silicon-based quantum computers</title>
+      <link>https://eidoom.github.io/post/qc-proj/</link>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/qc-proj/</guid>
+      <description>Over the summer of 2015, I worked on my first research project with Dr Brendon Lovett. We investigated the quadrupole interaction between donor electrons in a silicon substrate by computational simulation with a view to guiding experiments in quantum computation. I produced a Python code to do this. I presented a poster (source) and wrote a report (source) on the project.</description>
+    </item>
+    
+    <item>
       <title>Quantum computers and the cluster state</title>
       <link>https://eidoom.github.io/post/qc-essay/</link>
       <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
