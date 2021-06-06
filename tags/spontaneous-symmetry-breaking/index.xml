@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spontaneous symmetry breaking on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/spontaneous-symmetry-breaking/</link>
+    <description>Recent content in spontaneous symmetry breaking on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/spontaneous-symmetry-breaking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous symmetries in dual-mode Dicke models</title>
+      <link>https://eidoom.github.io/post/dicke-proj/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/dicke-proj/</guid>
+      <description>My final-year undergraduate research project, supervised by Jonathan Keeling and Kyle Ballantine, involved modelling non-equilibrium quantum systems to explore the continuous symmetries they can exhibit. Before starting original work, I conducted a literature review, summarised in my report (source). I then developed a Python simulation of the two-mode Dicke model to study its quantum phases. I wrote up the project in my dissertation (source). I also presented a poster (source) and defended the work in my viva with a presentation (source).</description>
+    </item>
+    
+  </channel>
+</rss>

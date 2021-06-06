@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>particle physics on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/particle-physics/</link>
+    <description>Recent content in particle physics on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/particle-physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YTF20 presentation: introduction to precision QCD</title>
+      <link>https://eidoom.github.io/post/ytf20/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/ytf20/</guid>
+      <description>I was on the committee for the YTF 2019 and YTF 2020 conferences. For YTF20, I also gave a non-specialist talk on precision QCD. The talk is recorded and the slides are available here (source) (discussion of tech).</description>
+    </item>
+    
+    <item>
+      <title>CV update</title>
+      <link>https://eidoom.github.io/post/statement/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/statement/</guid>
+      <description>When applying to the SAGEX School in Mathematica and Maple, I had to provide a CV, which was good motivation to update my CV (source) and current research statement (source).</description>
+    </item>
+    
+    <item>
+      <title>BUSSTEPP presentation: precision QCD with diphotons</title>
+      <link>https://eidoom.github.io/post/busstepp/</link>
+      <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/busstepp/</guid>
+      <description>I attended British Universities Summer School in Theoretical Elementary Particle Physics 2019. We all gave a short presentation of our research. Here are my slides (alt) (source).</description>
+    </item>
+    
+    <item>
+      <title>PhD first year report: real QCD corrections</title>
+      <link>https://eidoom.github.io/post/phd-year-one-report/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/phd-year-one-report/</guid>
+      <description>The time has come for my first year progress assessment. Here&amp;rsquo;s my report.</description>
+    </item>
+    
+    <item>
+      <title>PhD applications</title>
+      <link>https://eidoom.github.io/post/phd-applications/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/phd-applications/</guid>
+      <description>I&amp;rsquo;m applying for PhDs just now. Have a look at my CV or statement of purpose if you like.</description>
+    </item>
+    
+  </channel>
+</rss>

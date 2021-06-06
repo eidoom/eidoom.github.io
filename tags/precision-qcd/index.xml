@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>precision qcd on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/precision-qcd/</link>
+    <description>Recent content in precision qcd on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/precision-qcd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YTF20 presentation: introduction to precision QCD</title>
+      <link>https://eidoom.github.io/post/ytf20/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/ytf20/</guid>
+      <description>I was on the committee for the YTF 2019 and YTF 2020 conferences. For YTF20, I also gave a non-specialist talk on precision QCD. The talk is recorded and the slides are available here (source) (discussion of tech).</description>
+    </item>
+    
+    <item>
+      <title>PhD first year report: real QCD corrections</title>
+      <link>https://eidoom.github.io/post/phd-year-one-report/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/phd-year-one-report/</guid>
+      <description>The time has come for my first year progress assessment. Here&amp;rsquo;s my report.</description>
+    </item>
+    
+  </channel>
+</rss>

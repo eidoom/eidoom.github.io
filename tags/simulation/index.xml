@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simulation on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/simulation/</link>
+    <description>Recent content in simulation on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous symmetries in dual-mode Dicke models</title>
+      <link>https://eidoom.github.io/post/dicke-proj/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/dicke-proj/</guid>
+      <description>My final-year undergraduate research project, supervised by Jonathan Keeling and Kyle Ballantine, involved modelling non-equilibrium quantum systems to explore the continuous symmetries they can exhibit. Before starting original work, I conducted a literature review, summarised in my report (source). I then developed a Python simulation of the two-mode Dicke model to study its quantum phases. I wrote up the project in my dissertation (source). I also presented a poster (source) and defended the work in my viva with a presentation (source).</description>
+    </item>
+    
+    <item>
+      <title>Polarisation in photon Bose-Einstein condensation</title>
+      <link>https://eidoom.github.io/post/bec-proj/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/bec-proj/</guid>
+      <description>My second summer research project was with Jonathan Keeling and Peter Kirton, modelling the polarisation behaviour of a Bose-Einstein condensate of photons. I wrote a Python code to simulate the system for this study. I reported (source) on the work at the end of the summer.
+In the next academic term, I gave a presentation (source) to undergraduates in my department. I also continued work on the project, leading to a paper (arXiv).</description>
+    </item>
+    
+  </channel>
+</rss>

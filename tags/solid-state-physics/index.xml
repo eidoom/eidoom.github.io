@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>solid state physics on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/solid-state-physics/</link>
+    <description>Recent content in solid state physics on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 13 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/solid-state-physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A study of the tight-binding model</title>
+      <link>https://eidoom.github.io/post/solid-state/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/solid-state/</guid>
+      <description>As part of the module PH3012 Thermal and Statistical Physics, we did a study of the one-dimensional tight-binding model of solid state physics. I wrote this report, with source.</description>
+    </item>
+    
+  </channel>
+</rss>

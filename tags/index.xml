@@ -8,11 +8,56 @@
     <language>en-gb</language>
     <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>computational physics</title>
+      <link>https://eidoom.github.io/tags/computational-physics/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/computational-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>durham</title>
       <link>https://eidoom.github.io/tags/durham/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/tags/durham/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>high energy physics</title>
+      <link>https://eidoom.github.io/tags/high-energy-physics/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/high-energy-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mathematical physics</title>
+      <link>https://eidoom.github.io/tags/mathematical-physics/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/mathematical-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>particle physics</title>
+      <link>https://eidoom.github.io/tags/particle-physics/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/particle-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>particle physics phenomenology</title>
+      <link>https://eidoom.github.io/tags/particle-physics-phenomenology/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/particle-physics-phenomenology/</guid>
       <description></description>
     </item>
     
@@ -26,6 +71,105 @@
     </item>
     
     <item>
+      <title>precision qcd</title>
+      <link>https://eidoom.github.io/tags/precision-qcd/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/precision-qcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantum chromodynamics</title>
+      <link>https://eidoom.github.io/tags/quantum-chromodynamics/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/quantum-chromodynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantum field theory</title>
+      <link>https://eidoom.github.io/tags/quantum-field-theory/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/quantum-field-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>standard model</title>
+      <link>https://eidoom.github.io/tags/standard-model/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/standard-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theoretical physics</title>
+      <link>https://eidoom.github.io/tags/theoretical-physics/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/theoretical-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://eidoom.github.io/tags/css/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://eidoom.github.io/tags/html/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://eidoom.github.io/tags/javascript/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://eidoom.github.io/tags/python/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scientific method</title>
+      <link>https://eidoom.github.io/tags/scientific-method/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/scientific-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>https://eidoom.github.io/tags/statistics/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>glasgow</title>
       <link>https://eidoom.github.io/tags/glasgow/</link>
       <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
@@ -35,11 +179,443 @@
     </item>
     
     <item>
+      <title>amplitudes</title>
+      <link>https://eidoom.github.io/tags/amplitudes/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/amplitudes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>colour decomposition</title>
+      <link>https://eidoom.github.io/tags/colour-decomposition/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/colour-decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross sections</title>
+      <link>https://eidoom.github.io/tags/cross-sections/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/cross-sections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>differential cross sections</title>
+      <link>https://eidoom.github.io/tags/differential-cross-sections/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/differential-cross-sections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dimensional regularisation</title>
+      <link>https://eidoom.github.io/tags/dimensional-regularisation/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/dimensional-regularisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electron-positron annihilation</title>
+      <link>https://eidoom.github.io/tags/electron-positron-annihilation/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/electron-positron-annihilation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gauge theory</title>
+      <link>https://eidoom.github.io/tags/gauge-theory/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/gauge-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>group theory</title>
+      <link>https://eidoom.github.io/tags/group-theory/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/group-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infrared divergences</title>
+      <link>https://eidoom.github.io/tags/infrared-divergences/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/infrared-divergences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infrared factorisation</title>
+      <link>https://eidoom.github.io/tags/infrared-factorisation/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/infrared-factorisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>particle colliders</title>
+      <link>https://eidoom.github.io/tags/particle-colliders/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/particle-colliders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pedagogy</title>
+      <link>https://eidoom.github.io/tags/pedagogy/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/pedagogy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>perturbation theory</title>
+      <link>https://eidoom.github.io/tags/perturbation-theory/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/perturbation-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scattering amplitudes</title>
+      <link>https://eidoom.github.io/tags/scattering-amplitudes/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/scattering-amplitudes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spinor helicity formalism</title>
+      <link>https://eidoom.github.io/tags/spinor-helicity-formalism/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/spinor-helicity-formalism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subtraction schemes</title>
+      <link>https://eidoom.github.io/tags/subtraction-schemes/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/subtraction-schemes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attractors</title>
+      <link>https://eidoom.github.io/tags/attractors/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/attractors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bragg planes</title>
+      <link>https://eidoom.github.io/tags/bragg-planes/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/bragg-planes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cavities</title>
+      <link>https://eidoom.github.io/tags/cavities/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/cavities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cavity qed</title>
+      <link>https://eidoom.github.io/tags/cavity-qed/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/cavity-qed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cold atoms</title>
+      <link>https://eidoom.github.io/tags/cold-atoms/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/cold-atoms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>condensed matter physics</title>
+      <link>https://eidoom.github.io/tags/condensed-matter-physics/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/condensed-matter-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coupled light-matter systems</title>
+      <link>https://eidoom.github.io/tags/coupled-light-matter-systems/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/coupled-light-matter-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dipole approximation</title>
+      <link>https://eidoom.github.io/tags/dipole-approximation/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/dipole-approximation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exotic matter phases</title>
+      <link>https://eidoom.github.io/tags/exotic-matter-phases/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/exotic-matter-phases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gauge groups</title>
+      <link>https://eidoom.github.io/tags/gauge-groups/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/gauge-groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lasers</title>
+      <link>https://eidoom.github.io/tags/lasers/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/lasers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>limit cycles</title>
+      <link>https://eidoom.github.io/tags/limit-cycles/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/limit-cycles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lindblad equation</title>
+      <link>https://eidoom.github.io/tags/lindblad-equation/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/lindblad-equation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mean-field theory</title>
+      <link>https://eidoom.github.io/tags/mean-field-theory/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/mean-field-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mesoscale physics</title>
+      <link>https://eidoom.github.io/tags/mesoscale-physics/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/mesoscale-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mesoscopic</title>
+      <link>https://eidoom.github.io/tags/mesoscopic/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/mesoscopic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microcavity</title>
+      <link>https://eidoom.github.io/tags/microcavity/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/microcavity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modelling</title>
+      <link>https://eidoom.github.io/tags/modelling/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>non-equilibrium quantum systems</title>
+      <link>https://eidoom.github.io/tags/non-equilibrium-quantum-systems/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/non-equilibrium-quantum-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open quantum systems</title>
+      <link>https://eidoom.github.io/tags/open-quantum-systems/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/open-quantum-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optics</title>
+      <link>https://eidoom.github.io/tags/optics/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/optics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parameter space scan</title>
+      <link>https://eidoom.github.io/tags/parameter-space-scan/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/parameter-space-scan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phase diagrams</title>
+      <link>https://eidoom.github.io/tags/phase-diagrams/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/phase-diagrams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phase transitions</title>
+      <link>https://eidoom.github.io/tags/phase-transitions/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/phase-transitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantum gases</title>
+      <link>https://eidoom.github.io/tags/quantum-gases/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/quantum-gases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raman scattering</title>
+      <link>https://eidoom.github.io/tags/raman-scattering/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/raman-scattering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simulation</title>
+      <link>https://eidoom.github.io/tags/simulation/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spontaneous symmetry breaking</title>
+      <link>https://eidoom.github.io/tags/spontaneous-symmetry-breaking/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/spontaneous-symmetry-breaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>st andrews</title>
       <link>https://eidoom.github.io/tags/st-andrews/</link>
       <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/tags/st-andrews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>superradiance</title>
+      <link>https://eidoom.github.io/tags/superradiance/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/superradiance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>symmetry breaking</title>
+      <link>https://eidoom.github.io/tags/symmetry-breaking/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/symmetry-breaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time crystals</title>
+      <link>https://eidoom.github.io/tags/time-crystals/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/time-crystals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ultracold atoms</title>
+      <link>https://eidoom.github.io/tags/ultracold-atoms/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/ultracold-atoms/</guid>
       <description></description>
     </item>
     
@@ -62,6 +638,51 @@
     </item>
     
     <item>
+      <title>analytical methods</title>
+      <link>https://eidoom.github.io/tags/analytical-methods/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/analytical-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bose-einstein condensation</title>
+      <link>https://eidoom.github.io/tags/bose-einstein-condensation/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/bose-einstein-condensation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cold molecules</title>
+      <link>https://eidoom.github.io/tags/cold-molecules/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/cold-molecules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>numerical methods</title>
+      <link>https://eidoom.github.io/tags/numerical-methods/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/numerical-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>semi-classical approximation</title>
+      <link>https://eidoom.github.io/tags/semi-classical-approximation/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/semi-classical-approximation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>mathematica</title>
       <link>https://eidoom.github.io/tags/mathematica/</link>
       <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
@@ -71,11 +692,38 @@
     </item>
     
     <item>
+      <title>solid state physics</title>
+      <link>https://eidoom.github.io/tags/solid-state-physics/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/solid-state-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>statistical mechanics</title>
       <link>https://eidoom.github.io/tags/statistical-mechanics/</link>
       <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/tags/statistical-mechanics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stochastic methods</title>
+      <link>https://eidoom.github.io/tags/stochastic-methods/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/stochastic-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantum computation</title>
+      <link>https://eidoom.github.io/tags/quantum-computation/</link>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/quantum-computation/</guid>
       <description></description>
     </item>
     
