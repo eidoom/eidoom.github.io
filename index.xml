@@ -6,7 +6,16 @@
     <description>Recent content on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BUSSTEPP presentation</title>
+      <link>https://eidoom.github.io/post/busstepp/</link>
+      <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/busstepp/</guid>
+      <description>I attended British Universities Summer School in Theoretical Elementary Particle Physics 2019. We all gave a short presentation of our research. Here are my slides (alt) (source).</description>
+    </item>
+    
     <item>
       <title>PhD first year report</title>
       <link>https://eidoom.github.io/post/phd-year-one-report/</link>
@@ -14,6 +23,15 @@
       
       <guid>https://eidoom.github.io/post/phd-year-one-report/</guid>
       <description>The time has come for my first year progress assessment. Here&amp;rsquo;s my report.</description>
+    </item>
+    
+    <item>
+      <title>Continuous symmetries in dual-mode Dicke models</title>
+      <link>https://eidoom.github.io/post/dicke-proj/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/dicke-proj/</guid>
+      <description>My final-year undergraduate research project, supervised by Jonathan Keeling and Kyle Ballantine, involved modelling non-equilibrium quantum systems to explore the continuous symmetries they can exhibit. Before starting original work, I conducted a literature review, summarised in my report (source). I then developed a Python simulation of the two-mode Dicke model to study its quantum phases. I wrote up the project in my dissertation (source). I also presented a poster (source) and defended the work in my viva with a presentation (source).</description>
     </item>
     
     <item>
