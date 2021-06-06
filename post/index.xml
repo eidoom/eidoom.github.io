@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YTF20 presentation: introduction to precision QCD</title>
+      <link>https://eidoom.github.io/post/ytf20/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/ytf20/</guid>
+      <description>I was on the committee for the YTF 2019 and YTF 2020 conferences. For YTF20, I also gave a non-specialist talk on precision QCD. The talk is recorded and the slides are available here (source) (discussion of tech).</description>
+    </item>
+    
     <item>
       <title>CV update</title>
       <link>https://eidoom.github.io/post/statement/</link>
@@ -26,7 +35,7 @@
     </item>
     
     <item>
-      <title>BUSSTEPP presentation</title>
+      <title>BUSSTEPP presentation: precision QCD with diphotons</title>
       <link>https://eidoom.github.io/post/busstepp/</link>
       <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -35,7 +44,7 @@
     </item>
     
     <item>
-      <title>PhD first year report</title>
+      <title>PhD first year report: real QCD corrections</title>
       <link>https://eidoom.github.io/post/phd-year-one-report/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
