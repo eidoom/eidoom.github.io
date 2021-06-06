@@ -27,6 +27,10 @@ ul.more-icons li {
 	/* Other styles here */
 }
 
+ul.icons {
+	line-height: 300%;
+}
+
 .icons a {
 	border-bottom: none;
 }

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>physics on Ryan Moodie</title>
-    <link>//eidoom.github.io/categories/physics/</link>
+    <link>https://eidoom.github.io/categories/physics/</link>
     <description>Recent content in physics on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="//eidoom.github.io/categories/physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/categories/physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PhD first year report</title>
-      <link>//eidoom.github.io/post/phd-year-one-report/</link>
+      <link>https://eidoom.github.io/post/phd-year-one-report/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//eidoom.github.io/post/phd-year-one-report/</guid>
+      <guid>https://eidoom.github.io/post/phd-year-one-report/</guid>
       <description>The time has come for my first year progress assessment. Here&amp;rsquo;s my report.</description>
     </item>
     
     <item>
       <title>PhD applications</title>
-      <link>//eidoom.github.io/post/phd-applications/</link>
+      <link>https://eidoom.github.io/post/phd-applications/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>//eidoom.github.io/post/phd-applications/</guid>
+      <guid>https://eidoom.github.io/post/phd-applications/</guid>
       <description>I&amp;rsquo;m applying for PhDs just now. Have a look at my CV or statement of purpose if you like.</description>
     </item>
     
