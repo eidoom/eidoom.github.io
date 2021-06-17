@@ -2,49 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://eidoom.github.io/tags/arxiv/</loc>
-    <lastmod>2021-06-17T08:19:21+01:00</lastmod>
+    <loc>https://eidoom.github.io/tags/c&#43;&#43;/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/categories/</loc>
-    <lastmod>2021-06-17T08:19:21+01:00</lastmod>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/durham/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/post/nn-repo/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/neural-networks/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/particle-physics/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/phd/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/categories/physics/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/post/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/python/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/software/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/</loc>
+    <lastmod>2021-06-17T15:47:41+01:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/arxiv/</loc>
     <lastmod>2021-06-17T08:19:21+01:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/post/3g2a-2l/</loc>
     <lastmod>2021-06-17T08:19:21+01:00</lastmod>
   </url><url>
-    <loc>https://eidoom.github.io/tags/particle-physics/</loc>
-    <lastmod>2021-06-17T08:19:21+01:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/phd/</loc>
-    <lastmod>2021-06-17T08:19:21+01:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/categories/physics/</loc>
-    <lastmod>2021-06-17T08:19:21+01:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/post/</loc>
-    <lastmod>2021-06-17T08:19:21+01:00</lastmod>
-  </url><url>
     <loc>https://eidoom.github.io/tags/preprint/</loc>
     <lastmod>2021-06-17T08:19:21+01:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/</loc>
-    <lastmod>2021-06-17T08:19:21+01:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/</loc>
-    <lastmod>2021-06-17T08:19:21+01:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/c&#43;&#43;/</loc>
-    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/post/njet3/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://eidoom.github.io/tags/software/</loc>
-    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://eidoom.github.io/tags/computational-physics/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/conference/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/high-energy-physics/</loc>
@@ -59,10 +71,16 @@
     <loc>https://eidoom.github.io/tags/precision-qcd/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://eidoom.github.io/tags/presentation/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://eidoom.github.io/tags/quantum-chromodynamics/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/quantum-field-theory/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/slides/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/standard-model/</loc>
@@ -90,9 +108,6 @@
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/post/outreach/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/python/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/scientific-method/</loc>

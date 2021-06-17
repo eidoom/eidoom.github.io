@@ -6,7 +6,16 @@
     <description>Recent content in python on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 15:47:41 +0100</lastBuildDate><atom:link href="https://eidoom.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>n3jet_diphoton version 1 release</title>
+      <link>https://eidoom.github.io/post/nn-repo/</link>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/post/nn-repo/</guid>
+      <description>Our project n3jet_diphoton demonstrates the use of neural networks for high precision scattering amplitudes within Monte Carlo event generator simulations for hadronic colliders. We finalised the code today along with a preprint submission.</description>
+    </item>
+    
     <item>
       <title>Outreach with a Galton board</title>
       <link>https://eidoom.github.io/post/outreach/</link>

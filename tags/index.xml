@@ -6,29 +6,38 @@
     <description>Recent content in Tags on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 17 Jun 2021 08:19:21 +0100</lastBuildDate><atom:link href="https://eidoom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 15:47:41 +0100</lastBuildDate><atom:link href="https://eidoom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>arxiv</title>
-      <link>https://eidoom.github.io/tags/arxiv/</link>
-      <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
+      <title>c&#43;&#43;</title>
+      <link>https://eidoom.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
       
-      <guid>https://eidoom.github.io/tags/arxiv/</guid>
+      <guid>https://eidoom.github.io/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>durham</title>
       <link>https://eidoom.github.io/tags/durham/</link>
-      <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
       
       <guid>https://eidoom.github.io/tags/durham/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>neural networks</title>
+      <link>https://eidoom.github.io/tags/neural-networks/</link>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>particle physics</title>
       <link>https://eidoom.github.io/tags/particle-physics/</link>
-      <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
       
       <guid>https://eidoom.github.io/tags/particle-physics/</guid>
       <description></description>
@@ -37,9 +46,36 @@
     <item>
       <title>phd</title>
       <link>https://eidoom.github.io/tags/phd/</link>
-      <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
       
       <guid>https://eidoom.github.io/tags/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://eidoom.github.io/tags/python/</link>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://eidoom.github.io/tags/software/</link>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arxiv</title>
+      <link>https://eidoom.github.io/tags/arxiv/</link>
+      <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/arxiv/</guid>
       <description></description>
     </item>
     
@@ -53,29 +89,20 @@
     </item>
     
     <item>
-      <title>c&#43;&#43;</title>
-      <link>https://eidoom.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://eidoom.github.io/tags/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://eidoom.github.io/tags/software/</link>
-      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://eidoom.github.io/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>computational physics</title>
       <link>https://eidoom.github.io/tags/computational-physics/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/tags/computational-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>https://eidoom.github.io/tags/conference/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/conference/</guid>
       <description></description>
     </item>
     
@@ -116,6 +143,15 @@
     </item>
     
     <item>
+      <title>presentation</title>
+      <link>https://eidoom.github.io/tags/presentation/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>quantum chromodynamics</title>
       <link>https://eidoom.github.io/tags/quantum-chromodynamics/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
@@ -130,6 +166,15 @@
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/tags/quantum-field-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slides</title>
+      <link>https://eidoom.github.io/tags/slides/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/tags/slides/</guid>
       <description></description>
     </item>
     
@@ -175,15 +220,6 @@
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://eidoom.github.io/tags/python/</link>
-      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://eidoom.github.io/tags/python/</guid>
       <description></description>
     </item>
     
