@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/code/</link>
+    <description>Recent content in code on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 17 Jun 2021 15:47:41 +0100</lastBuildDate><atom:link href="https://eidoom.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>n3jet_diphoton version 1 release</title>
+      <link>https://eidoom.github.io/post/nn-repo/</link>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/post/nn-repo/</guid>
+      <description>Our project n3jet_diphoton demonstrates the use of neural networks for high precision scattering amplitudes within Monte Carlo event generator simulations for hadronic colliders. We finalised the code today along with a preprint submission.</description>
+    </item>
+    
+    <item>
+      <title>NJet version 3 release</title>
+      <link>https://eidoom.github.io/post/njet3/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/njet3/</guid>
+      <description>Today I released a new version of NJet. It includes all the feature contributions I have made to the NJet library over the last two years, including a couple of two-loop analytic amplitudes as well as some one-loop diphoton processes and a library of infrared limit functions.</description>
+    </item>
+    
+    <item>
+      <title>Outreach with a Galton board</title>
+      <link>https://eidoom.github.io/post/outreach/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/outreach/</guid>
+      <description>At the IPPP, I&amp;rsquo;m involved with the outreach programme. Aside from helping to run events, I also did a bit of maintenance on the Galton board exhibit, which I wrote about on our Computing Club website. In recent quarantined times, I experimented with a virtual version (source), which I discussed here.</description>
+    </item>
+    
+    <item>
+      <title>Continuous symmetries in dual-mode Dicke models</title>
+      <link>https://eidoom.github.io/post/dicke-proj/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/dicke-proj/</guid>
+      <description>My final-year undergraduate research project, supervised by Jonathan Keeling and Kyle Ballantine, involved modelling non-equilibrium quantum systems to explore the continuous symmetries they can exhibit. Before starting original work, I conducted a literature review, summarised in my report (source). I then developed a Python simulation of the two-mode Dicke model to study its quantum phases. I wrote up the project in my dissertation (source). I also presented a poster (source) and defended the work in my viva with a presentation (source).</description>
+    </item>
+    
+    <item>
+      <title>Polarisation in photon Bose-Einstein condensation</title>
+      <link>https://eidoom.github.io/post/bec-proj/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/bec-proj/</guid>
+      <description>My second summer research project was with Jonathan Keeling and Peter Kirton, modelling the polarisation behaviour of a Bose-Einstein condensate of photons. I wrote a Python code to simulate the system for this study. I reported (source) and presented a poster (source) on the work at the end of the summer.
+In the next academic term, I gave a presentation (source) to fellow undergraduates in my department. I also continued work on the project, leading to a paper (arXiv).</description>
+    </item>
+    
+    <item>
+      <title>A study of the tight-binding model</title>
+      <link>https://eidoom.github.io/post/solid-state/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/solid-state/</guid>
+      <description>As part of the module PH3012 Thermal and Statistical Physics, we did a study of the one-dimensional tight-binding model of solid state physics. I wrote this report, with source.</description>
+    </item>
+    
+    <item>
+      <title>Simulation of a Brownian particle in an optical trap</title>
+      <link>https://eidoom.github.io/post/compphys/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/compphys/</guid>
+      <description>The Mathematica source code is available here and the report here.</description>
+    </item>
+    
+  </channel>
+</rss>

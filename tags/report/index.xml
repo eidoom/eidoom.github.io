@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>report on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/report/</link>
+    <description>Recent content in report on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/report/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD first year report: real QCD corrections</title>
+      <link>https://eidoom.github.io/post/phd-year-one-report/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/phd-year-one-report/</guid>
+      <description>The time has come for my first year progress assessment. Here&amp;rsquo;s my report.</description>
+    </item>
+    
+    <item>
+      <title>Continuous symmetries in dual-mode Dicke models</title>
+      <link>https://eidoom.github.io/post/dicke-proj/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/dicke-proj/</guid>
+      <description>My final-year undergraduate research project, supervised by Jonathan Keeling and Kyle Ballantine, involved modelling non-equilibrium quantum systems to explore the continuous symmetries they can exhibit. Before starting original work, I conducted a literature review, summarised in my report (source). I then developed a Python simulation of the two-mode Dicke model to study its quantum phases. I wrote up the project in my dissertation (source). I also presented a poster (source) and defended the work in my viva with a presentation (source).</description>
+    </item>
+    
+    <item>
+      <title>Polarisation in photon Bose-Einstein condensation</title>
+      <link>https://eidoom.github.io/post/bec-proj/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/bec-proj/</guid>
+      <description>My second summer research project was with Jonathan Keeling and Peter Kirton, modelling the polarisation behaviour of a Bose-Einstein condensate of photons. I wrote a Python code to simulate the system for this study. I reported (source) and presented a poster (source) on the work at the end of the summer.
+In the next academic term, I gave a presentation (source) to fellow undergraduates in my department. I also continued work on the project, leading to a paper (arXiv).</description>
+    </item>
+    
+    <item>
+      <title>A study of the tight-binding model</title>
+      <link>https://eidoom.github.io/post/solid-state/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/solid-state/</guid>
+      <description>As part of the module PH3012 Thermal and Statistical Physics, we did a study of the one-dimensional tight-binding model of solid state physics. I wrote this report, with source.</description>
+    </item>
+    
+    <item>
+      <title>Simulation of a Brownian particle in an optical trap</title>
+      <link>https://eidoom.github.io/post/compphys/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/compphys/</guid>
+      <description>The Mathematica source code is available here and the report here.</description>
+    </item>
+    
+    <item>
+      <title>What I gained from the Professional Skills Curriculum</title>
+      <link>https://eidoom.github.io/post/psc/</link>
+      <pubDate>Tue, 22 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/psc/</guid>
+      <description>This essay is also available as a pdf
+I decided to enroll for the Professional Skills Curriculum (PSC) following advice from friends who had previously completed the course. They recommended it as a useful and informative experience in self-reflection and personal development. These are ideals I put effort into achieving, previously focussed by the Transferable Skills for Physicists module I took in Junior Honours. PSC provided me with a great opportunity to continue honing my professional skills with the guidance of its framework and access to its resources.</description>
+    </item>
+    
+    <item>
+      <title>Modelling electron states in silicon-based quantum computers</title>
+      <link>https://eidoom.github.io/post/qc-proj/</link>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/qc-proj/</guid>
+      <description>Over the summer of 2015, I worked on my first research project with Brendon Lovett and Giuseppe Pica. We investigated the quadrupole interaction between donor electrons in a silicon substrate by computational simulation with a view to guiding experiments in quantum computation. I produced a Python code to do this. I presented a poster (source) and wrote a report (source) on the project.</description>
+    </item>
+    
+  </channel>
+</rss>

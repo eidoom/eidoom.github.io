@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>summer project on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/summer-project/</link>
+    <description>Recent content in summer project on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 11 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/summer-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laidlaw Scholarship Experiences</title>
+      <link>https://eidoom.github.io/post/laidlaw-blog/</link>
+      <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/laidlaw-blog/</guid>
+      <description>This blog post was featured on Laidlaw Scholarship Experiences. It concerns my project on photon BECs.
+BEC Hello everyone, I hope you are all doing well.
+(Do you get the joke of the title? It is condensed and I am studying condensates! No, OK, it is not very funny…)
+I have thoroughly enjoyed reading through all the posts before mine. Thank you all for sharing your experiences and in such excellent prose.</description>
+    </item>
+    
+    <item>
+      <title>Modelling electron states in silicon-based quantum computers</title>
+      <link>https://eidoom.github.io/post/qc-proj/</link>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/qc-proj/</guid>
+      <description>Over the summer of 2015, I worked on my first research project with Brendon Lovett and Giuseppe Pica. We investigated the quadrupole interaction between donor electrons in a silicon substrate by computational simulation with a view to guiding experiments in quantum computation. I produced a Python code to do this. I presented a poster (source) and wrote a report (source) on the project.</description>
+    </item>
+    
+  </channel>
+</rss>
