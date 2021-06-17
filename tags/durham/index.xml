@@ -6,7 +6,25 @@
     <description>Recent content in durham on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/durham/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 08:19:21 +0100</lastBuildDate><atom:link href="https://eidoom.github.io/tags/durham/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gluon fusion to diphoton plus jet at two loops</title>
+      <link>https://eidoom.github.io/post/3g2a-2l/</link>
+      <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/post/3g2a-2l/</guid>
+      <description>Today the preprint of our article Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders appeared on the arXiv.</description>
+    </item>
+    
+    <item>
+      <title>NJet version 3 release</title>
+      <link>https://eidoom.github.io/post/njet3/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/njet3/</guid>
+      <description>Today I released a new version of NJet. It includes all the feature contributions I have made to the NJet library over the last two years, including a couple of two-loop analytic amplitudes as well as some one-loop diphoton processes and a library of infrared limit functions.</description>
+    </item>
+    
     <item>
       <title>YTF20 presentation: introduction to precision QCD</title>
       <link>https://eidoom.github.io/post/ytf20/</link>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c&#43;&#43; on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/c&#43;&#43;/</link>
+    <description>Recent content in c&#43;&#43; on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NJet version 3 release</title>
+      <link>https://eidoom.github.io/post/njet3/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/njet3/</guid>
+      <description>Today I released a new version of NJet. It includes all the feature contributions I have made to the NJet library over the last two years, including a couple of two-loop analytic amplitudes as well as some one-loop diphoton processes and a library of infrared limit functions.</description>
+    </item>
+    
+  </channel>
+</rss>

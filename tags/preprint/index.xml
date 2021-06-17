@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>preprint on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/preprint/</link>
+    <description>Recent content in preprint on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 17 Jun 2021 08:19:21 +0100</lastBuildDate><atom:link href="https://eidoom.github.io/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gluon fusion to diphoton plus jet at two loops</title>
+      <link>https://eidoom.github.io/post/3g2a-2l/</link>
+      <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/post/3g2a-2l/</guid>
+      <description>Today the preprint of our article Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders appeared on the arXiv.</description>
+    </item>
+    
+  </channel>
+</rss>
