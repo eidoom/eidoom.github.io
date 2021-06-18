@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quantum electrodynamics on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/quantum-electrodynamics/</link>
+    <description>Recent content in quantum electrodynamics on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/quantum-electrodynamics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gluon fusion to diphoton plus jets with amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/nn-pp/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/nn-pp/</guid>
+      <description>Our new paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was listed on the arXiv today. I posted about the code for this project yesterday.</description>
+    </item>
+    
+  </channel>
+</rss>
