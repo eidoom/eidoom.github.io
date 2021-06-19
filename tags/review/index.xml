@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>review on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/review/</link>
+    <description>Recent content in review on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 19 Jun 2021 09:27:34 +0100</lastBuildDate><atom:link href="https://eidoom.github.io/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD completion review</title>
+      <link>https://eidoom.github.io/post/phd-completion-report/</link>
+      <pubDate>Sat, 19 Jun 2021 09:27:34 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/post/phd-completion-report/</guid>
+      <description>With nine months to go, I had to write up a completion review (source) for my PhD. This was a good opportunity to reflect on what I&amp;rsquo;ve done and sketch out the shape of my thesis.</description>
+    </item>
+    
+  </channel>
+</rss>

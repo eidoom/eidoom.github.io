@@ -6,7 +6,16 @@
     <description>Recent content in physics on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/categories/physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jun 2021 09:27:34 +0100</lastBuildDate><atom:link href="https://eidoom.github.io/categories/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD completion review</title>
+      <link>https://eidoom.github.io/post/phd-completion-report/</link>
+      <pubDate>Sat, 19 Jun 2021 09:27:34 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/post/phd-completion-report/</guid>
+      <description>With nine months to go, I had to write up a completion review (source) for my PhD. This was a good opportunity to reflect on what I&amp;rsquo;ve done and sketch out the shape of my thesis.</description>
+    </item>
+    
     <item>
       <title>Gluon fusion to diphoton plus jets with amplitude neural networks</title>
       <link>https://eidoom.github.io/post/nn-pp/</link>
