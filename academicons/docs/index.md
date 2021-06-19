@@ -19,7 +19,7 @@ layout: home
       <i class="ai ai-acm ai-4x"></i>
       acm
     </div>
-    
+
     <div class="col-2 center ai-case">
       <i class="ai ai-acmdl ai-4x"></i>
       acmdl
@@ -31,6 +31,11 @@ layout: home
     </div>
 
     <div class="col-2 center ai-case">
+      <i class="ai ai-africarxiv ai-4x"></i>
+      africarxiv
+    </div>
+
+    <div class="col-2 center ai-case">
       <i class="ai ai-arxiv ai-4x"></i>
       arxiv
     </div>
@@ -38,7 +43,7 @@ layout: home
     <div class="col-2 center ai-case">
       <i class="ai ai-biorxiv ai-4x"></i>
       biorxiv
-    </div>   
+    </div>
 
     <div class="col-2 center ai-case">
       <i class="ai ai-ceur ai-4x"></i>
@@ -46,13 +51,38 @@ layout: home
     </div>
 
     <div class="col-2 center ai-case">
+      <i class="ai ai-ciencia-vitae ai-4x"></i>
+      ciencia-vitae
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-closed-access ai-4x"></i>
+      closed-access
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-conversation ai-4x"></i>
+      conversation
+    </div>
+
+    <div class="col-2 center ai-case">
       <i class="ai ai-coursera ai-4x"></i>
       coursera
     </div>
-    
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-crossref ai-4x"></i>
+      crossref
+    </div>
+
     <div class="col-2 center ai-case">
       <i class="ai ai-cv ai-4x"></i>
       cv
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-datacite ai-4x"></i>
+      datacite
     </div>
 
     <div class="col-2 center ai-case">
@@ -81,6 +111,11 @@ layout: home
     </div>
 
     <div class="col-2 center ai-case">
+      <i class="ai ai-elsevier ai-4x"></i>
+      elsevier
+    </div>
+
+    <div class="col-2 center ai-case">
       <i class="ai ai-figshare ai-4x"></i>
       figshare
     </div>
@@ -89,7 +124,17 @@ layout: home
       <i class="ai ai-google-scholar ai-4x"></i>
       google-scholar
     </div>
-    
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-hal ai-4x"></i>
+      hal
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-hypothesis ai-4x"></i>
+      hypothesis
+    </div>
+
     <div class="col-2 center ai-case">
       <i class="ai ai-ideas-repec ai-4x"></i>
       ideas-repec
@@ -106,15 +151,35 @@ layout: home
     </div>
 
     <div class="col-2 center ai-case">
+      <i class="ai ai-inaturalist ai-4x"></i>
+      inaturalist
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-inpn ai-4x"></i>
+      inpn
+    </div>
+
+    <div class="col-2 center ai-case">
       <i class="ai ai-inspire ai-4x"></i>
       inspire
     </div>
-    
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-isidore ai-4x"></i>
+      isidore
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-jstor ai-4x"></i>
+      jstor
+    </div>
+
     <div class="col-2 center ai-case">
       <i class="ai ai-lattes ai-4x"></i>
       lattes
     </div>
-    
+
     <div class="col-2 center ai-case">
       <i class="ai ai-mathoverflow ai-4x"></i>
       mathoverflow
@@ -126,8 +191,38 @@ layout: home
     </div>
 
     <div class="col-2 center ai-case">
+      <i class="ai ai-moodle ai-4x"></i>
+      moodle
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-nakala ai-4x"></i>
+      nakala
+    </div>
+
+    <div class="col-2 center ai-case">
       <i class="ai ai-open-access ai-4x"></i>
       open-access
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-open-data ai-4x"></i>
+      open-data
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-open-materials ai-4x"></i>
+      open-materials
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-obp ai-4x"></i>
+      obp
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-openedition ai-4x"></i>
+      openedition
     </div>
 
     <div class="col-2 center ai-case">
@@ -156,6 +251,21 @@ layout: home
     </div>
 
     <div class="col-2 center ai-case">
+      <i class="ai ai-preregistered ai-4x"></i>
+      preregistered
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-protocols ai-4x"></i>
+      protocols
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-psyarxiv ai-4x"></i>
+      psyarxiv
+    </div>
+
+    <div class="col-2 center ai-case">
       <i class="ai ai-publons ai-4x"></i>
       publons
     </div>
@@ -166,20 +276,40 @@ layout: home
     </div>
 
     <div class="col-2 center ai-case">
-      <i class="ai ai-researchgate ai-4x"></i>
-      researchgate
+      <i class="ai ai-pubpeer ai-4x"></i>
+      pubpeer
     </div>
-    
+
     <div class="col-2 center ai-case">
       <i class="ai ai-researcherid ai-4x"></i>
       researcherid
     </div>
 
     <div class="col-2 center ai-case">
+      <i class="ai ai-researchgate ai-4x"></i>
+      researchgate
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-ror ai-4x"></i>
+      ror
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-sci-hub ai-4x"></i>
+      sci-hub
+    </div>
+
+    <div class="col-2 center ai-case">
       <i class="ai ai-scirate ai-4x"></i>
       scirate
     </div>
-    
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-scopus ai-4x"></i>
+      scopus
+    </div>
+
     <div class="col-2 center ai-case">
       <i class="ai ai-semantic-scholar ai-4x"></i>
       semantic-scholar
@@ -188,6 +318,21 @@ layout: home
     <div class="col-2 center ai-case">
       <i class="ai ai-springer ai-4x"></i>
       springer
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-ssrn ai-4x"></i>
+      ssrn
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-stackoverflow ai-4x"></i>
+      stackoverflow
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-zenodo ai-4x"></i>
+      zenodo
     </div>
 
     <div class="col-2 center ai-case">
@@ -202,12 +347,13 @@ layout: home
 
 Academicons is a specialist icon font for academics. It contains icons for websites and organisations related to academia that are often missing from mainstream font packages. It can be used by itself, but its primary purpose is to be used as a supplementary package alongside a larger icon set.
 
+**All product names, logos, and brandsare are the property of their respective owners. Use of these names, logos, and brands does not imply endorsement.**
 
 # How do I use it?
 
 ## Alongside Font Awesome
 
-Academicons was originally built as a supplement to [Font Awesome](https://fortawesome.github.io/Font-Awesome), so the two fonts intentionally share the same metrics.
+Academicons was originally built as a supplement to [Font Awesome 5](https://github.com/FortAwesome/Font-Awesome), so the two fonts intentionally share the same metrics. You can [style](/academicons/usage) the icons using Font Awesome CSS controls.
 
 There are two ways to install Academicons on your site. The most reliable way is to place the `fonts` and `css` folders on your server and link to the `academicons.css` stylesheet by adding the following to the page header:
 
@@ -217,11 +363,21 @@ There are two ways to install Academicons on your site. The most reliable way is
 
 {% endhighlight %}
 
-Alternatively, use the RawGit service to call the most recent version of Academicons from the StackPath content distribution network using:
+Alternatively, use the jsdelivr CDN to call the most recent version of Academicons from the content distribution network.
+
+Load Academicons v1 (latest release in the 1.x.x range; recommended):
 
 {% highlight html %}
 
-<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+{% endhighlight %}
+
+Or get the latest version (not recommended) using:
+
+{% highlight html %}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
 {% endhighlight %}
 
