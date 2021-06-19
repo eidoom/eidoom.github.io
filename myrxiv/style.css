@@ -1,0 +1,77 @@
+a {
+    text-decoration: none;
+}
+
+#arxiv {
+    margin: 2em 1em;
+    font-size: 90%;
+    max-width: 32rem;
+}
+
+.nobr {
+    white-space: nowrap;
+}
+
+.list-item {
+    margin: 1.5em 0;
+}
+
+.list-title {
+    font-size: large;
+    font-weight: bold;
+    margin: 0.5em 0;
+    line-height: 120%;
+}
+
+.list-body {
+    line-height: 130%;
+    margin: 0.5em 0;
+}
+
+.list-body-field {
+    margin: 0.25em 0;
+}
+
+.list-authors {
+    font-weight: normal;
+    font-size: 110%;
+}
+
+.list-date {
+    font-size: 90%;
+}
+
+.list-footer {
+    font-size: 80%;
+}
+
+.list-subjects {
+    font-size: 90%;
+}
+
+/* .list-comments { */
+/*     font-weight: normal; */
+/*     font-size: 90%; */
+/* } */
+
+/* .list-journal-ref { */
+/*     font-weight: normal; */
+/*     font-size: 90%; */
+/* } */
+
+/* .list-doi { */
+/*     font-weight: normal; */
+/*     font-size: 90%; */
+/* } */
+
+/* .authorid_hook { */
+/*     font-size: 80%; */
+/*     padding-left: 0px; */
+/* } */
+
+@media screen and (min-width: 544px) {
+    #arxiv {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
