@@ -2,19 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://eidoom.github.io/post/delta1/</loc>
-    <lastmod>2021-07-03T15:45:47+01:00</lastmod>
+    <loc>https://eidoom.github.io/tags/amplitudes/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/arxiv/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/categories/</loc>
-    <lastmod>2021-07-03T15:45:47+01:00</lastmod>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/colliders/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/computational-physics/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/cross-sections/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/differential-cross-sections/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/durham/</loc>
-    <lastmod>2021-07-03T15:45:47+01:00</lastmod>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/hadron-colliders/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/high-energy-physics/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/neural-networks/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/particle-physics/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/particle-physics-phenomenology/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/phd/</loc>
-    <lastmod>2021-07-03T15:45:47+01:00</lastmod>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/categories/physics/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/post/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/precision-qcd/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/preprint/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/post/nn-pub/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/quantum-chromodynamics/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/quantum-electrodynamics/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/quantum-field-theory/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/scattering-amplitudes/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/standard-model/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/theoretical-physics/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/post/delta1/</loc>
     <lastmod>2021-07-03T15:45:47+01:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/categories/professional-development/</loc>
@@ -23,22 +92,10 @@
     <loc>https://eidoom.github.io/tags/reflective/</loc>
     <lastmod>2021-07-03T15:45:47+01:00</lastmod>
   </url><url>
-    <loc>https://eidoom.github.io/</loc>
-    <lastmod>2021-07-03T15:45:47+01:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/</loc>
-    <lastmod>2021-07-03T15:45:47+01:00</lastmod>
-  </url><url>
     <loc>https://eidoom.github.io/tags/teaching/</loc>
     <lastmod>2021-07-03T15:45:47+01:00</lastmod>
   </url><url>
-    <loc>https://eidoom.github.io/tags/particle-physics/</loc>
-    <lastmod>2021-06-19T09:27:34+01:00</lastmod>
-  </url><url>
     <loc>https://eidoom.github.io/post/phd-completion-report/</loc>
-    <lastmod>2021-06-19T09:27:34+01:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/categories/physics/</loc>
     <lastmod>2021-06-19T09:27:34+01:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/plan/</loc>
@@ -50,61 +107,7 @@
     <loc>https://eidoom.github.io/tags/review/</loc>
     <lastmod>2021-06-19T09:27:34+01:00</lastmod>
   </url><url>
-    <loc>https://eidoom.github.io/tags/amplitudes/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/arxiv/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/colliders/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/computational-physics/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/cross-sections/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/differential-cross-sections/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://eidoom.github.io/post/nn-pp/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/hadron-colliders/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/high-energy-physics/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/neural-networks/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/particle-physics-phenomenology/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/precision-qcd/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/preprint/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/quantum-chromodynamics/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/quantum-electrodynamics/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/quantum-field-theory/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/scattering-amplitudes/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/standard-model/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/theoretical-physics/</loc>
     <lastmod>2021-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/c&#43;&#43;/</loc>

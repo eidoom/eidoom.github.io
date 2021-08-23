@@ -6,9 +6,18 @@
     <description>Recent content in arxiv on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/arxiv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/arxiv/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gluon fusion to diphoton plus jets with amplitude neural networks</title>
+      <title>Publication: gluon fusion to diphoton plus jets with amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/nn-pub/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/nn-pub/</guid>
+      <description>Our paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was published by the Journal of High Energy Physics today.</description>
+    </item>
+    
+    <item>
+      <title>Preprint: gluon fusion to diphoton plus jets with amplitude neural networks</title>
       <link>https://eidoom.github.io/post/nn-pp/</link>
       <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -17,7 +26,7 @@
     </item>
     
     <item>
-      <title>Gluon fusion to diphoton plus jet at two loops</title>
+      <title>Preprint: gluon fusion to diphoton plus jet at two loops</title>
       <link>https://eidoom.github.io/post/3g2a-2l/</link>
       <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
       
