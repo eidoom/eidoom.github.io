@@ -17,12 +17,23 @@
     </item>
     
     <item>
+      <title>Infrared factorisation properties of QCD amplitudes</title>
+      <link>https://eidoom.github.io/post/ir/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/ir/</guid>
+      <description>I typed up some notes (pdf) (source) about this.</description>
+    </item>
+    
+    <item>
       <title>PhD first year report: real QCD corrections</title>
       <link>https://eidoom.github.io/post/phd-year-one-report/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/post/phd-year-one-report/</guid>
-      <description>The time has come for my first year progress assessment. Here&amp;rsquo;s my report.</description>
+      <description>The time has come for my first year progress assessment. Here&amp;rsquo;s my report (source).
+This draws together my studies of:
+ Modern techniques in calculating scattering amplitudes (notes) Spinor helicity formalism (source) Colour algebra for squared amplitudes (notes) QCD corrections to the cross section of electron-positron annihilation to hadrons (source) (notes)  </description>
     </item>
     
   </channel>
