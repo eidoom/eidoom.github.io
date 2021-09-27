@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>release on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/release/</link>
+    <description>Recent content in release on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 17 Jun 2021 15:47:41 +0100</lastBuildDate><atom:link href="https://eidoom.github.io/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>n3jet_diphoton version 1 release</title>
+      <link>https://eidoom.github.io/post/nn-repo/</link>
+      <pubDate>Thu, 17 Jun 2021 15:47:41 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/post/nn-repo/</guid>
+      <description>Our project n3jet_diphoton demonstrates the use of neural networks for high precision scattering amplitudes within Monte Carlo event generator simulations for hadronic colliders. We finalised the code today along with a preprint submission that will be listed on the arXiv tomorrow.</description>
+    </item>
+    
+  </channel>
+</rss>

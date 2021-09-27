@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lhc on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/lhc/</link>
+    <description>Recent content in lhc on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 27 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/lhc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preprint: NLO gluon fusion to diphoton plus jet cross sections</title>
+      <link>https://eidoom.github.io/post/3g2a-xs-pp/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/3g2a-xs-pp/</guid>
+      <description>In our preprint appearing on arXiv today, Next-to-leading order QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC, we use the two-loop amplitudes from Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders along with the real corrections to obtain differential cross sections of gluon-initiated diphoton-plus-jet production at NLO.</description>
+    </item>
+    
+    <item>
+      <title>Preprint: gluon fusion to diphoton plus jets with amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/nn-pp/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/nn-pp/</guid>
+      <description>Our new paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was listed on the arXiv today. I posted about the code for this project yesterday.</description>
+    </item>
+    
+  </channel>
+</rss>

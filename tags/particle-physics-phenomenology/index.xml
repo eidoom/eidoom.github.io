@@ -6,14 +6,23 @@
     <description>Recent content in particle physics phenomenology on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/particle-physics-phenomenology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/particle-physics-phenomenology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preprint: NLO gluon fusion to diphoton plus jet cross sections</title>
+      <link>https://eidoom.github.io/post/3g2a-xs-pp/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/3g2a-xs-pp/</guid>
+      <description>In our preprint appearing on arXiv today, Next-to-leading order QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC, we use the two-loop amplitudes from Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders along with the real corrections to obtain differential cross sections of gluon-initiated diphoton-plus-jet production at NLO.</description>
+    </item>
+    
     <item>
       <title>Publication: gluon fusion to diphoton plus jets with amplitude neural networks</title>
       <link>https://eidoom.github.io/post/nn-pub/</link>
       <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/post/nn-pub/</guid>
-      <description>Our paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was published by the Journal of High Energy Physics today.</description>
+      <description>Following the preprint release, our paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was published by the Journal of High Energy Physics today.</description>
     </item>
     
     <item>
@@ -23,6 +32,15 @@
       
       <guid>https://eidoom.github.io/post/nn-pp/</guid>
       <description>Our new paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was listed on the arXiv today. I posted about the code for this project yesterday.</description>
+    </item>
+    
+    <item>
+      <title>Preprint: gluon fusion to diphoton plus jet at two loops</title>
+      <link>https://eidoom.github.io/post/3g2a-2l/</link>
+      <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
+      
+      <guid>https://eidoom.github.io/post/3g2a-2l/</guid>
+      <description>Today the preprint of our article Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders appeared on arXiv, in which we compute the two-loop gluon fusion to diphoton plus jet amplitude, providing it ready for phenomenological application in an accompanying NJet release.</description>
     </item>
     
     <item>
