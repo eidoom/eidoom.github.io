@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cv on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/cv/</link>
+    <description>Recent content in cv on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postdoc applications</title>
+      <link>https://eidoom.github.io/post/cv-end-phd/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/cv-end-phd/</guid>
+      <description>Here (source) is my CV for applying for postdoctoral research associate/assistant/award (PDRA) positions.</description>
+    </item>
+    
+    <item>
+      <title>CV update</title>
+      <link>https://eidoom.github.io/post/statement/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/statement/</guid>
+      <description>When applying to the SAGEX School in Mathematica and Maple, I had to provide a CV, which was good motivation to update my CV (source) and current research statement (source).</description>
+    </item>
+    
+    <item>
+      <title>PhD applications</title>
+      <link>https://eidoom.github.io/post/phd-applications/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/phd-applications/</guid>
+      <description>I&amp;rsquo;m applying for PhDs just now. Have a look at my CV or statement of purpose if you like.</description>
+    </item>
+    
+  </channel>
+</rss>
