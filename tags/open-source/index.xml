@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open source on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/open-source/</link>
+    <description>Recent content in open source on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publication: gluon fusion to diphoton plus jet amplitude at two loops</title>
+      <link>https://eidoom.github.io/post/ggyyg-amp/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/ggyyg-amp/</guid>
+      <description>Following the arXiv release, our paper Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders was published by the Journal of High Energy Physics today.</description>
+    </item>
+    
+    <item>
+      <title>Publication: gluon fusion to diphoton plus jets with amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/nn-pub/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/nn-pub/</guid>
+      <description>Following the preprint release, our paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was published by the Journal of High Energy Physics today.</description>
+    </item>
+    
+  </channel>
+</rss>
