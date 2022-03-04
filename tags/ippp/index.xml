@@ -6,7 +6,16 @@
     <description>Recent content in ippp on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/ippp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 12:55:06 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/ippp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD Thesis</title>
+      <link>https://eidoom.github.io/post/thesis/</link>
+      <pubDate>Fri, 04 Mar 2022 12:55:06 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/thesis/</guid>
+      <description>I am writing my PhD thesis (source) now.</description>
+    </item>
+    
     <item>
       <title>IPPP internal seminar: NLO QCD corrections to diphoton-plus-jet production through gluon fusion at hadron colliders</title>
       <link>https://eidoom.github.io/post/ippp-internal-seminar/</link>

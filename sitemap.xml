@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://eidoom.github.io/categories/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/durham/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/ippp/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/phd/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/post/thesis/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/categories/physics/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/post/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/thesis/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
+    <loc>https://eidoom.github.io/tags/uk/</loc>
+    <lastmod>2022-03-04T12:55:06+00:00</lastmod>
+  </url><url>
     <loc>https://eidoom.github.io/tags/acat/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,9 +45,6 @@
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/post/acat-proc/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/categories/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/colliders/</loc>
@@ -33,9 +63,6 @@
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/differential-cross-sections/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/durham/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/hadron-colliders/</loc>
@@ -59,15 +86,6 @@
     <loc>https://eidoom.github.io/tags/particle-physics-phenomenology/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://eidoom.github.io/tags/phd/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/categories/physics/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/post/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://eidoom.github.io/tags/precision-qcd/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -89,16 +107,10 @@
     <loc>https://eidoom.github.io/tags/quantum-field-theory/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://eidoom.github.io/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://eidoom.github.io/tags/scattering-amplitudes/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/standard-model/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/theoretical-physics/</loc>
@@ -120,9 +132,6 @@
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/tags/internal/</loc>
-    <lastmod>2022-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eidoom.github.io/tags/ippp/</loc>
     <lastmod>2022-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eidoom.github.io/post/ippp-internal-seminar/</loc>
