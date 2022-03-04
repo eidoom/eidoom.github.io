@@ -6,7 +6,35 @@
     <description>Recent content on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 06 Dec 2021 18:05:23 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arXiv: optimising hadronic collider simulations using amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/acat-proc/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/acat-proc/</guid>
+      <description>The preprint for my ACAT2021 proceedings contribution, Optimising hadronic collider simulations using amplitude neural networks, appeared on arXiv today. This follows my recent talk. It is also available through the GitLab CI system here (source).</description>
+    </item>
+    
+    <item>
+      <title>Cavendish HEP seminar: NLO QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC</title>
+      <link>https://eidoom.github.io/post/cavendish-seminar/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/cavendish-seminar/</guid>
+      <description>I gave a talk in the Cavendish HEP seminar series. It covered the same content as a previous talk. Here are the slides (source).</description>
+    </item>
+    
+    <item>
+      <title>IPPP internal seminar: NLO QCD corrections to diphoton-plus-jet production through gluon fusion at hadron colliders</title>
+      <link>https://eidoom.github.io/post/ippp-internal-seminar/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/ippp-internal-seminar/</guid>
+      <description>I gave a talk in the IPPP internal seminar series about my recent work on diphoton-plus-jet production via gluon fusion, including:
+ Next-to-leading order QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders Optimising simulations for diphoton production at hadron colliders using amplitude neural networks  Here are the slides (source).</description>
+    </item>
+    
     <item>
       <title>Phys. Let. B: NLO gluon fusion to diphoton plus jet cross sections</title>
       <link>https://eidoom.github.io/post/ggyyg-xs-pub/</link>
@@ -14,6 +42,16 @@
       
       <guid>https://eidoom.github.io/post/ggyyg-xs-pub/</guid>
       <description>Following the arXiv release, the open access version of our paper Next-to-leading order QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC was published online in Physics Letters B today.</description>
+    </item>
+    
+    <item>
+      <title>ACAT 2021 talk: optimising simulations for diphoton production at hadron colliders using amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/acat/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/acat/</guid>
+      <description>I gave a virtual talk at ACAT2021 (while I had COVID, actually) about our recent paper. Here are the slides (source) and a recording (below). Apologies for where the audio cuts out in the middle, but it&amp;rsquo;s really Zoom&amp;rsquo;s fault for not supporting Linux well.
+ </description>
     </item>
     
     <item>

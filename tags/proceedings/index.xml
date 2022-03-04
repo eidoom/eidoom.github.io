@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proceedings on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/proceedings/</link>
+    <description>Recent content in proceedings on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/proceedings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arXiv: optimising hadronic collider simulations using amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/acat-proc/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/acat-proc/</guid>
+      <description>The preprint for my ACAT2021 proceedings contribution, Optimising hadronic collider simulations using amplitude neural networks, appeared on arXiv today. This follows my recent talk. It is also available through the GitLab CI system here (source).</description>
+    </item>
+    
+  </channel>
+</rss>

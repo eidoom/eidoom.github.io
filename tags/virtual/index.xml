@@ -6,7 +6,17 @@
     <description>Recent content in virtual on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/virtual/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/virtual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ACAT 2021 talk: optimising simulations for diphoton production at hadron colliders using amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/acat/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/acat/</guid>
+      <description>I gave a virtual talk at ACAT2021 (while I had COVID, actually) about our recent paper. Here are the slides (source) and a recording (below). Apologies for where the audio cuts out in the middle, but it&amp;rsquo;s really Zoom&amp;rsquo;s fault for not supporting Linux well.
+ </description>
+    </item>
+    
     <item>
       <title>YTF20: introduction to precision QCD</title>
       <link>https://eidoom.github.io/post/ytf20/</link>

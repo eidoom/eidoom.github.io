@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cavendish on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/cavendish/</link>
+    <description>Recent content in cavendish on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/cavendish/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cavendish HEP seminar: NLO QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC</title>
+      <link>https://eidoom.github.io/post/cavendish-seminar/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/cavendish-seminar/</guid>
+      <description>I gave a talk in the Cavendish HEP seminar series. It covered the same content as a previous talk. Here are the slides (source).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>internal on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/internal/</link>
+    <description>Recent content in internal on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/internal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPPP internal seminar: NLO QCD corrections to diphoton-plus-jet production through gluon fusion at hadron colliders</title>
+      <link>https://eidoom.github.io/post/ippp-internal-seminar/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/ippp-internal-seminar/</guid>
+      <description>I gave a talk in the IPPP internal seminar series about my recent work on diphoton-plus-jet production via gluon fusion, including:
+ Next-to-leading order QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders Optimising simulations for diphoton production at hadron colliders using amplitude neural networks  Here are the slides (source).</description>
+    </item>
+    
+  </channel>
+</rss>

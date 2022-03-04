@@ -6,7 +6,26 @@
     <description>Recent content in open source on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arXiv: optimising hadronic collider simulations using amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/acat-proc/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/acat-proc/</guid>
+      <description>The preprint for my ACAT2021 proceedings contribution, Optimising hadronic collider simulations using amplitude neural networks, appeared on arXiv today. This follows my recent talk. It is also available through the GitLab CI system here (source).</description>
+    </item>
+    
+    <item>
+      <title>ACAT 2021 talk: optimising simulations for diphoton production at hadron colliders using amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/acat/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/acat/</guid>
+      <description>I gave a virtual talk at ACAT2021 (while I had COVID, actually) about our recent paper. Here are the slides (source) and a recording (below). Apologies for where the audio cuts out in the middle, but it&amp;rsquo;s really Zoom&amp;rsquo;s fault for not supporting Linux well.
+ </description>
+    </item>
+    
     <item>
       <title>JHEP: gluon fusion to diphoton plus jet amplitude at two loops</title>
       <link>https://eidoom.github.io/post/ggyyg-amp/</link>
