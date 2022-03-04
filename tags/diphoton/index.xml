@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>diphoton on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/diphoton/</link>
+    <description>Recent content in diphoton on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 17 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/diphoton/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BUSSTEPP: precision QCD with diphotons</title>
+      <link>https://eidoom.github.io/post/busstepp/</link>
+      <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/busstepp/</guid>
+      <description>I attended the British Universities Summer School in Theoretical Elementary Particle Physics (BUSSTEPP) 2019. We all gave a short presentation of our research. Here are my slides (source).</description>
+    </item>
+    
+  </channel>
+</rss>

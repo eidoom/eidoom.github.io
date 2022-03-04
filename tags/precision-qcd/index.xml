@@ -8,7 +8,7 @@
     <language>en-gb</language>
     <lastBuildDate>Mon, 06 Dec 2021 18:05:23 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/precision-qcd/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Publication: NLO gluon fusion to diphoton plus jet cross sections</title>
+      <title>Phys. Let. B: NLO gluon fusion to diphoton plus jet cross sections</title>
       <link>https://eidoom.github.io/post/ggyyg-xs-pub/</link>
       <pubDate>Mon, 06 Dec 2021 18:05:23 +0000</pubDate>
       
@@ -17,7 +17,7 @@
     </item>
     
     <item>
-      <title>Publication: gluon fusion to diphoton plus jet amplitude at two loops</title>
+      <title>JHEP: gluon fusion to diphoton plus jet amplitude at two loops</title>
       <link>https://eidoom.github.io/post/ggyyg-amp/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>Preprint: NLO gluon fusion to diphoton plus jet cross sections</title>
+      <title>arXiv: NLO gluon fusion to diphoton plus jet cross sections</title>
       <link>https://eidoom.github.io/post/3g2a-xs-pp/</link>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -35,7 +35,7 @@
     </item>
     
     <item>
-      <title>Publication: gluon fusion to diphoton plus jets with amplitude neural networks</title>
+      <title>JHEP: gluon fusion to diphoton plus jets with amplitude neural networks</title>
       <link>https://eidoom.github.io/post/nn-pub/</link>
       <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       
@@ -44,7 +44,7 @@
     </item>
     
     <item>
-      <title>Preprint: gluon fusion to diphoton plus jets with amplitude neural networks</title>
+      <title>arXiv: gluon fusion to diphoton plus jets with amplitude neural networks</title>
       <link>https://eidoom.github.io/post/nn-pp/</link>
       <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -53,7 +53,7 @@
     </item>
     
     <item>
-      <title>Preprint: gluon fusion to diphoton plus jet amplitude at two loops</title>
+      <title>arXiv: gluon fusion to diphoton plus jet amplitude at two loops</title>
       <link>https://eidoom.github.io/post/3g2a-2l/</link>
       <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
       
@@ -62,12 +62,13 @@
     </item>
     
     <item>
-      <title>YTF20 presentation: introduction to precision QCD</title>
+      <title>YTF20: introduction to precision QCD</title>
       <link>https://eidoom.github.io/post/ytf20/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/post/ytf20/</guid>
-      <description>I was on the committee for the YTF 2019 and YTF 2020 conferences. For YTF20, I also gave a non-specialist talk on precision QCD. The talk is recorded and the slides are available here (source) (discussion of tech).</description>
+      <description>I was on the committee for the YTF 2019 and YTF 2020 conferences. For YTF20, I also gave a non-specialist talk on precision QCD. The talk is recorded (see below) and the slides are available here (source) (discussion of tech).
+ </description>
     </item>
     
     <item>
@@ -77,6 +78,15 @@
       
       <guid>https://eidoom.github.io/post/ir/</guid>
       <description>I typed up some notes (pdf) (source) about this.</description>
+    </item>
+    
+    <item>
+      <title>BUSSTEPP: precision QCD with diphotons</title>
+      <link>https://eidoom.github.io/post/busstepp/</link>
+      <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/busstepp/</guid>
+      <description>I attended the British Universities Summer School in Theoretical Elementary Particle Physics (BUSSTEPP) 2019. We all gave a short presentation of our research. Here are my slides (source).</description>
     </item>
     
     <item>

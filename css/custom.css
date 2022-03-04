@@ -1,3 +1,8 @@
+.centre {
+  display: block;
+  margin: 0 auto;
+}
+
 #header {
   background-image: url("../images/my_background.jpg");
   background-size: cover;
