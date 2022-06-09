@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>laidlaw on Ryan Moodie</title>
+    <link>https://eidoom.github.io/tags/laidlaw/</link>
+    <description>Recent content in laidlaw on Ryan Moodie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 17 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/laidlaw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polarisation in photon Bose-Einstein condensation</title>
+      <link>https://eidoom.github.io/post/bec-proj/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/bec-proj/</guid>
+      <description>My second summer research project was with Jonathan Keeling and Peter Kirton, modelling the polarisation behaviour of a Bose-Einstein condensate of photons. I wrote a Python code to simulate the system for this study. I reported (source) and presented a poster (source) on the work at the end of the summer. This work was funded by the Laidlaw Undergraduate Programme in Research and Leadership.
+ In the next academic term, I gave a presentation (source) to fellow undergraduates in my department.</description>
+    </item>
+    
+    <item>
+      <title>Laidlaw Scholarship Experiences</title>
+      <link>https://eidoom.github.io/post/laidlaw-blog/</link>
+      <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/laidlaw-blog/</guid>
+      <description>This blog post was featured on Laidlaw Scholarship Experiences. It concerns my project on photon BECs.
+BEC Hello everyone, I hope you are all doing well.
+(Do you get the joke of the title? It is condensed and I am studying condensates! No, OK, it is not very funny…)
+I have thoroughly enjoyed reading through all the posts before mine. Thank you all for sharing your experiences and in such excellent prose.</description>
+    </item>
+    
+  </channel>
+</rss>
