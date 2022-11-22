@@ -13,7 +13,7 @@
       <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/post/acat-proc/</guid>
-      <description>The preprint for my ACAT2021 proceedings contribution, Optimising hadronic collider simulations using amplitude neural networks, appeared on arXiv today. This follows my recent talk. It is also available through the GitLab CI system here (source).</description>
+      <description>The preprint for my ACAT 2021 proceedings contribution, Optimising hadronic collider simulations using amplitude neural networks, appeared on arXiv today (InspireHEP). This follows my recent talk. It is also available through the GitLab CI system here (source).</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/post/acat/</guid>
-      <description>I gave a virtual talk at ACAT2021 (while I had COVID, actually) about our recent paper. Here are the slides (source) and a recording (below). Apologies for where the audio cuts out in the middle, but it&amp;rsquo;s really Zoom&amp;rsquo;s fault for not supporting Linux well.
+      <description>I gave a virtual talk at ACAT 2021 (while I had COVID, actually) about our recent paper. Here are the slides (source) and a recording (below). Apologies for where the audio cuts out in the middle, but it&amp;rsquo;s really Zoom&amp;rsquo;s fault for not supporting Linux well.
  </description>
     </item>
     
@@ -50,7 +50,7 @@
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/post/3g2a-xs-pp/</guid>
-      <description>In our preprint appearing on arXiv today, Next-to-leading order QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC, we use the two-loop amplitudes from Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders along with the real corrections to obtain differential cross sections of gluon-initiated diphoton-plus-jet production at NLO.</description>
+      <description>In our preprint appearing on arXiv today, Next-to-leading order QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC, we use the two-loop amplitudes from Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders along with the real corrections to obtain differential cross sections of gluon-initiated diphoton-plus-jet production at NLO (InspireHEP).</description>
     </item>
     
     <item>
@@ -68,7 +68,7 @@
       <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/post/nn-pp/</guid>
-      <description>Our new paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was listed on the arXiv today. I posted about the code for this project yesterday.</description>
+      <description>Our new paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was listed on the arXiv today (InspireHEP). I posted about the code for this project yesterday.</description>
     </item>
     
     <item>
@@ -77,7 +77,7 @@
       <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
       
       <guid>https://eidoom.github.io/post/3g2a-2l/</guid>
-      <description>Today the preprint of our article Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders appeared on arXiv, in which we compute the two-loop gluon fusion to diphoton plus jet amplitude, providing it ready for phenomenological application in an accompanying NJet release.</description>
+      <description>Today the preprint of our article Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders appeared on arXiv (InspireHEP), in which we compute the two-loop gluon fusion to diphoton plus jet amplitude, providing it ready for phenomenological application in an accompanying NJet release.</description>
     </item>
     
     <item>

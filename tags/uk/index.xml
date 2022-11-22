@@ -6,9 +6,18 @@
     <description>Recent content in uk on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 04 Mar 2022 12:55:06 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PhD thesis</title>
+      <title>PhD thesis complete</title>
+      <link>https://eidoom.github.io/post/corrections/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/corrections/</guid>
+      <description>I completed the additions to my thesis after the viva and have made it available on arXiv (InspireHEP). It can also be accessed at Durham e-Theses, although they break the PDF hyperlinks.</description>
+    </item>
+    
+    <item>
+      <title>Writing my PhD thesis</title>
       <link>https://eidoom.github.io/post/thesis/</link>
       <pubDate>Fri, 04 Mar 2022 12:55:06 +0000</pubDate>
       

@@ -6,14 +6,32 @@
     <description>Recent content in arxiv on Ryan Moodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 27 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/arxiv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eidoom.github.io/tags/arxiv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD thesis complete</title>
+      <link>https://eidoom.github.io/post/corrections/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/corrections/</guid>
+      <description>I completed the additions to my thesis after the viva and have made it available on arXiv (InspireHEP). It can also be accessed at Durham e-Theses, although they break the PDF hyperlinks.</description>
+    </item>
+    
+    <item>
+      <title>arXiv: optimising hadronic collider simulations using amplitude neural networks</title>
+      <link>https://eidoom.github.io/post/acat-proc/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eidoom.github.io/post/acat-proc/</guid>
+      <description>The preprint for my ACAT 2021 proceedings contribution, Optimising hadronic collider simulations using amplitude neural networks, appeared on arXiv today (InspireHEP). This follows my recent talk. It is also available through the GitLab CI system here (source).</description>
+    </item>
+    
     <item>
       <title>arXiv: NLO gluon fusion to diphoton plus jet cross sections</title>
       <link>https://eidoom.github.io/post/3g2a-xs-pp/</link>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/post/3g2a-xs-pp/</guid>
-      <description>In our preprint appearing on arXiv today, Next-to-leading order QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC, we use the two-loop amplitudes from Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders along with the real corrections to obtain differential cross sections of gluon-initiated diphoton-plus-jet production at NLO.</description>
+      <description>In our preprint appearing on arXiv today, Next-to-leading order QCD corrections to diphoton-plus-jet production through gluon fusion at the LHC, we use the two-loop amplitudes from Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders along with the real corrections to obtain differential cross sections of gluon-initiated diphoton-plus-jet production at NLO (InspireHEP).</description>
     </item>
     
     <item>
@@ -22,7 +40,7 @@
       <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://eidoom.github.io/post/nn-pp/</guid>
-      <description>Our new paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was listed on the arXiv today. I posted about the code for this project yesterday.</description>
+      <description>Our new paper Optimising simulations for diphoton production at hadron colliders using amplitude neural networks was listed on the arXiv today (InspireHEP). I posted about the code for this project yesterday.</description>
     </item>
     
     <item>
@@ -31,7 +49,7 @@
       <pubDate>Thu, 17 Jun 2021 08:19:21 +0100</pubDate>
       
       <guid>https://eidoom.github.io/post/3g2a-2l/</guid>
-      <description>Today the preprint of our article Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders appeared on arXiv, in which we compute the two-loop gluon fusion to diphoton plus jet amplitude, providing it ready for phenomenological application in an accompanying NJet release.</description>
+      <description>Today the preprint of our article Virtual QCD corrections to gluon-initiated diphoton plus jet production at hadron colliders appeared on arXiv (InspireHEP), in which we compute the two-loop gluon fusion to diphoton plus jet amplitude, providing it ready for phenomenological application in an accompanying NJet release.</description>
     </item>
     
     <item>
